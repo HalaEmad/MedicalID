@@ -4,7 +4,7 @@ dsf
 				function($scope, $rootScope, $state, $filter, $log, $timeout) {
 					$scope.$parent.hideHeader = true;
 					$scope.$parent.hideDrawer = true;
-					$scope.$parent.bodyClass = "loginBkgrd";
+					$scope.$parent.bodyClass = "homepageBackground";
 					$scope.$parent.showFooter = false;
 					$scope.$parent.PageHeaderParam = "MyDSF";
 					/*$scope.patternToUSe="[\u0621-\u064A\u0660-\u0669 ]+$|([a-zA-Z]+\\s)*[a-zA-Z]+$";*/

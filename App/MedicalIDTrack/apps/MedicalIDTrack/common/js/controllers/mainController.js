@@ -1,7 +1,6 @@
 dsf.controller('mainController', function($scope, $rootScope, $state, $log, $timeout,$http,MsgsModel,offerModel,SocialShare,CyclicJobsModel,databaseService,localStorageService,$interval) {
 	//wlInitOptions["onSuccess"]=adjustDSFOfferLocalStore;
 	WL.Client.init(wlInitOptions);
-	document.addEventListener(WL.Events.WORKLIGHT_IS_CONNECTED, connectionDetected, false);
 	$scope.hideHeader = false;
 	$scope.hideDrawer = false;
 	$scope.bodyClass = "default";
@@ -67,13 +66,58 @@ dsf.controller('mainController', function($scope, $rootScope, $state, $log, $tim
 	{
 		$('.sideMenuHide').toggleClass('nav-active');
 		$state.go('adibtopratedoffers');
+	};	
+	
+	$scope.allergiesPageNav=function()
+	{
+		$('.sideMenuHide').toggleClass('nav-active');
+		$state.go('allergies');
 	};
-	/*Social Twitter Page Navigation fn*/	
-//	$scope.dsftwitterSocial=function()
-//	{
-//		$('.sideMenuHide').toggleClass('nav-active');
-//		$state.go('socialTwitter');
-//	};
+	$scope.majorIllnessPageNav=function()
+	{
+		$('.sideMenuHide').toggleClass('nav-active');
+		$state.go('majorIllness');
+	};
+	$scope.medicalEventsPageNav=function()
+	{
+		$('.sideMenuHide').toggleClass('nav-active');
+		$state.go('medicalEvents');
+	};
+	$scope.medicationsPageNav=function()
+	{
+		$('.sideMenuHide').toggleClass('nav-active');
+		$state.go('medications');
+	};
+	$scope.investigationsPageNav=function()
+	{
+		$('.sideMenuHide').toggleClass('nav-active');
+		$state.go('investigations');
+	};
+	$scope.surgicalProceduresPageNav=function()
+	{
+		$('.sideMenuHide').toggleClass('nav-active');
+		$state.go('surgicalProcedures');
+	};
+	$scope.anaesthesiaProblemPageNav=function()
+	{
+		$('.sideMenuHide').toggleClass('nav-active');
+		$state.go('anaesthesiaProblem');
+	};
+	$scope.traumaHistoryPageNav=function()
+	{
+		$('.sideMenuHide').toggleClass('nav-active');
+		$state.go('traumaHistory');
+	};
+	$scope.cancerPageNav=function()
+	{
+		$('.sideMenuHide').toggleClass('nav-active');
+		$state.go('cancerhistory');
+	};
+	$scope.foodAndDiet=function()
+	{
+		$('.sideMenuHide').toggleClass('nav-active');
+		$state.go('foodndiet');
+	};
 	$scope.dsftTermsAndConditions=function()
 	{
 		$('.sideMenuHide').toggleClass('nav-active');
@@ -100,54 +144,10 @@ dsf.controller('mainController', function($scope, $rootScope, $state, $log, $tim
 			localStorage.setItem('PersonalizePopupDisplay',true);
 			CyclicJobsModel.setUserInterval();
 		};
-	if(localStorageService.getAppSyncFlag()==null)	
-		{$interval(function(){
-			localStorageService.setAppSyncFlag(JSON.stringify("True"));
-			$scope.syncApplicationData();
-		},300000);
-		}
+
 		//CyclicJobsModel.updateAppData();
 		/*Loading countries Flag and Codes*/	
-		$scope.syncApplicationData=function()
-		 {
-			console.log("App trigger synchronizing 1");
-			localStorageService.setAppSyncFlag(JSON.stringify("True"));
-			 if(WL.Client.isConnected()==true)
-				{
-//					WL.Device.getNetworkInfo (function(deviceStatus){
-//					if((deviceStatus && deviceStatus.isNetworkConnected&&deviceStatus.isNetworkConnected=="true"))
-//					{	
-					     if(JSON.parse(localStorageService.getGlobalDataRefreshLastTimeStamp())!=null) 
-					    {
-					    	if(currentTimeStamp-JSON.parse(localStorageService.getGlobalDataRefreshLastTimeStamp())>DATA_EXPIRY_IN_MS)
-								{
-					    			console.log("App trigger synchronizing 2");
-									console.log("Call Backend function 123"+ new Date());
-									databaseService.fetchOffersOutletList();
-									databaseService.fetchOutletsOfflineList();/*This is responsible for refresh the  outlets full records location data from the backend*/
-									databaseService.fetchOUtletsList(callback);/*This is responsible for refresh the Merchants with multiple location data from the backend*/
-									databaseService.fetchLocationsList(callback);/*This is responsible for refresh the locations data from the backend*/
-									databaseService.fetchAllOffersList(callback);/*This is responsible for refresh the DSF offers data from the backend*/
-									localStorageService.setGlobalDataRefreshLastTimeStamp(JSON.stringify(currentTimeStamp));
-								}
-						}
-					     else 
-					    	 {
-					    	 	console.log("App trigger synchronizing 3");
-					    	 //$timeout(function(){
-					    	 	databaseService.fetchOffersOutletList();
-								databaseService.fetchOutletsOfflineList();/*This is responsible for refresh the  outlets full records location data from the backend*/
-								databaseService.fetchOUtletsList(callback);/*This is responsible for refresh the Merchants with multiple location data from the backend*/
-								databaseService.fetchLocationsList(callback);/*This is responsible for refresh the locations data from the backend*/
-								databaseService.fetchAllOffersList(callback);/*This is responsible for refresh the DSF offers data from the backend*/
-								//alert(currentTimeStamp);
-								localStorageService.setGlobalDataRefreshLastTimeStamp(JSON.stringify(currentTimeStamp));
-					    		//}, 300000);
-					    	 }	
-//					}
-//				});
-				}
-		 };
+		
 		/*Loading countries Flag and codes */
 		$http.get('data/countryImgAndCode.json').success(function(data, status) {
 			var result = {};
@@ -378,45 +378,7 @@ dsf.controller('mainController', function($scope, $rootScope, $state, $log, $tim
 	}
 	/*This function is the failure callback get invoked when the application fail to connect to worklight server*/
 	function connectionDetected()
-	{
-		if(WL.Client.isConnected()==true)
-		{
-			console.log("App will start synchronizing 1");
-//			WL.Device.getNetworkInfo (function(deviceStatus){
-//			if((deviceStatus && deviceStatus.isNetworkConnected&&deviceStatus.isNetworkConnected=="true"))
-//			{	
-		     if(JSON.parse(localStorageService.getGlobalDataRefreshLastTimeStamp())!=null) 
-		    {
-		    	if(currentTimeStamp-JSON.parse(localStorageService.getGlobalDataRefreshLastTimeStamp())>DATA_EXPIRY_IN_MS)
-					{
-						console.log("App started synchronizing 2");
-
-						console.log("Call Backend function 387"+ new Date());
-						databaseService.fetchOffersOutletList();
-						databaseService.fetchOutletsOfflineList();/*This is responsible for refresh the  outlets full records location data from the backend*/
-						databaseService.fetchOUtletsList(callback);/*This is responsible for refresh the Merchants with multiple location data from the backend*/
-						databaseService.fetchLocationsList(callback);/*This is responsible for refresh the locations data from the backend*/
-						databaseService.fetchAllOffersList(callback);/*This is responsible for refresh the DSF offers data from the backend*/
-						localStorageService.setGlobalDataRefreshLastTimeStamp(JSON.stringify(currentTimeStamp));
-					}
-			}
-		     else 
-		    	 {
-		    	 	//$timeout(function(){
-		    	 	console.log("App started synchronizing 3");
-		    	 	databaseService.fetchOffersOutletList();
-					databaseService.fetchOutletsOfflineList();/*This is responsible for refresh the  outlets full records location data from the backend*/
-					databaseService.fetchOUtletsList(callback);/*This is responsible for refresh the Merchants with multiple location data from the backend*/
-					databaseService.fetchLocationsList(callback);/*This is responsible for refresh the locations data from the backend*/
-					databaseService.fetchAllOffersList(callback);/*This is responsible for refresh the DSF offers data from the backend*/
-					//alert(currentTimeStamp);
-					localStorageService.setGlobalDataRefreshLastTimeStamp(JSON.stringify(currentTimeStamp));
-		    		//}, 300000);
-		    	 }
-//			}
-//		});
-		}
-	};
+	{};
 	
 	function onConnectFailure()
 	{

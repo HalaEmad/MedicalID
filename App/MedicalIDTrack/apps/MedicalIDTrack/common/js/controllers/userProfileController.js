@@ -6,7 +6,7 @@ dsf.controller('userProfileController',
 						userModel, $http, localStorageService,databaseService) {
 					$scope.$parent.hideHeader = false;
 					$scope.$parent.hideDrawer = false;
-					$scope.$parent.bodyClass = "userprofileBkgd";
+					$scope.$parent.bodyClass = "homepageBackground";
 					$scope.hideBankList = true;
 					$scope.errorMessage = '';
 					$scope.displayErrorMessage = false;

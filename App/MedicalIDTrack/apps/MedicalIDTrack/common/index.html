@@ -74,7 +74,16 @@
 <script src="js/controllers/contactusController.js"></script>
 <script src="js/controllers/termsAndConditionsController.js"></script>
 <script src="js/controllers/verificationController.js"></script>
-
+<script src="js/controllers/FoodAndDietController.js"></script>
+<script src="js/controllers/cancerHistoryController.js"></script>
+<script src="js/controllers/traumaHistoryController.js"></script>
+<script src="js/controllers/anaesthesiaProblemController.js"></script>
+<script src="js/controllers/surgicalProceduresController.js"></script>
+<script src="js/controllers/testsController.js"></script>
+<script src="js/controllers/medicationsController.js"></script>
+<script src="js/controllers/medicalEventsController.js"></script>
+<script src="js/controllers/majorIllnessController.js"></script>
+<script src="js/controllers/allergiesController.js"></script>
 
 <!--application UI goes here-->
 <script src="js/initOptions.js"></script>
@@ -97,17 +106,17 @@
 				<!-- main navigation of the page -->
 				<ul id="nav">
 					<li><a ng-click="homePageNav()"><i class="sideMenuIcons sideMenuHomeIconImg"></i>Home</a></li>
-					<li><a ng-click="homePageNav()"><i class="sideMenuIcons sideMenuAllergieIconImg"></i>Allergies</a></li>
-					<li><a ng-click="homePageNav()"><i class="sideMenuIcons sideMenuheartIconImg"></i>Major Illness</a></li>
-					<li><a ng-click="homePageNav()"><i class="sideMenuIcons sideMenuEventsIconImg"></i>Medical Events</a></li>
-					<li><a ng-click="homePageNav()"><i class="sideMenuIcons sideMenuCurrentMedicationIconImg"></i>Current Medication</a></li>
-					<li><a ng-click="homePageNav()"><i class="sideMenuIcons testsIconImg"></i>Tests</a></li>
-					<li><a ng-click="homePageNav()"><i class="sideMenuIcons surgicalProcedureIconImg"></i>Surgical Procedures</a></li>
-					<li><a ng-click="homePageNav()"><i class="sideMenuIcons sideMenuAnaesthesiaIconImg"></i>Anaesthesia Problems</a></li>
-					<li><a ng-click="homePageNav()"><i class="sideMenuIcons sideMenuTraumaIconImg"></i>Trauma History</a></li>
-					<li><a ng-click="homePageNav()"><i class="sideMenuIcons surgicalProcedureIconImg"></i>Cancer History</a></li>
+					<li><a ng-click="allergiesPageNav()"><i class="sideMenuIcons sideMenuAllergieIconImg"></i>Allergies</a></li>
+					<li><a ng-click="majorIllnessPageNav()"><i class="sideMenuIcons sideMenuheartIconImg"></i>Major Illness</a></li>
+					<li><a ng-click="medicalEventsPageNav()"><i class="sideMenuIcons sideMenuEventsIconImg"></i>Medical Events</a></li>
+					<li><a ng-click="medicationsPageNav()"><i class="sideMenuIcons sideMenuCurrentMedicationIconImg"></i>Current Medications</a></li>
+					<li><a ng-click="investigationsPageNav()"><i class="sideMenuIcons testsIconImg"></i>Investigations</a></li>
+					<li><a ng-click="surgicalProceduresPageNav()"><i class="sideMenuIcons surgicalProcedureIconImg"></i>Surgical Procedures</a></li>
+					<li><a ng-click="anaesthesiaProblemPageNav()"><i class="sideMenuIcons sideMenuAnaesthesiaIconImg"></i>Anaesthesia Problems</a></li>
+					<li><a ng-click="traumaHistoryPageNav()"><i class="sideMenuIcons sideMenuTraumaIconImg"></i>Trauma History</a></li>
+					<li><a ng-click="cancerPageNav()"><i class="sideMenuIcons surgicalProcedureIconImg"></i>Cancer History</a></li>
 					<li><a ng-click="homePageNav()"><i class="sideMenuIcons childhoodHistoryIconImg"></i>Childhood History</a></li>
-					<li><a ng-click="homePageNav()"><i class="sideMenuIcons FoodDietIconImg"></i>Food/Diet Supplementaries</a></li>
+					<li><a ng-click="foodAndDiet()"><i class="sideMenuIcons FoodDietIconImg"></i>Food/Diet Supplementaries</a></li>
 					<li><a ng-click="contactusPageNav()"><i class="sideMenuIcons sideMenuContactUsIconImg"></i>Contact Us</a></li>
 					<li><a ng-click="userProfilePageNav()"><i class="sideMenuIcons sideMenuPersonalizeIconImg"></i>User Profile</a></li>
 					<li><a ng-click="dsftTermsAndConditions()"><i class="sideMenuIcons sideMenuTermsAndConditionsImg"></i>Terms & Conditions</a></li>

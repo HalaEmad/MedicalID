@@ -2,7 +2,7 @@ dsf.controller('termsAndCnditionsController', function($scope, $rootScope, $stat
 		$log, $filter, MsgsModel, $http) {
 	$scope.$parent.hideHeader = false;
 	$scope.$parent.hideDrawer = false;
-	$scope.$parent.bodyClass = "offersBackground";
+	$scope.$parent.bodyClass = "homepageBackground";
 	$scope.$parent.showFooter = false;
 	$scope.$parent.PageHeaderParam = "Terms And Conditions";
 	var that=this;

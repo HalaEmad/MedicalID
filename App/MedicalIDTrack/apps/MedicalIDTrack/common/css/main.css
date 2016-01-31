@@ -514,7 +514,7 @@ html {
 }
 
 body {
-	color: #fff;
+	color: #19b5fe;
 	background: #000;
 	font: 16px/1.2 "Helvetica", "Arial", sans-serif;
 	min-width: 320px;
@@ -1301,7 +1301,7 @@ body {
 	margin: 0 40px;
 	font: 300 20px/36px "Roboto", "Helvetica", "Arial", sans-serif;
 	text-align: center;
-	color: #fff;
+	color: #19b5fe;
 }
 
 .link-nav {
@@ -2081,7 +2081,7 @@ body {
 	margin: 0 0 7px;
 	line-height: 25px;
 	font-size: 20px;
-	color: #fff;
+	color: #19b5fe;
 }
 
 .personalize-form input[type="date"] {
@@ -2150,7 +2150,7 @@ body {
 	margin: 0 0 7px;
 	line-height: 26px;
 	font-size: 22px;
-	color: #fff;
+	color: #19b5fe;
 }
 
 .contact-form input[type="date"] {

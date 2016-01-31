@@ -8,16 +8,7 @@
     "MENU_CONTACTUS":"Contact us",
     "MENU_PERSONALIZEDSF":"Personalize DSF",
     "MENU_#DSFSOCIAL2016":"@DSF Social 2016",
-    
-    "ADIBOFFERS_RATING":"Rate this Offer",
-    "ADIBOFFERS_SPECIALOFFERTITLE":"ADIB Special Offer",
-    "ADIBOFFERS_WHERETOFINDUS":"Where to find us",
-    "ADIBOFFERS-FROM":"Ofer valid from",
-    "ADIBOFFERS-TO":"Offer valid until",
-    "ADIBOFFERS-FURTHERINFORMATION":"Further information",
-    "ADIBOFFERS-GETINTOUCH":"Get in touch",
-    
-    
+        
     "CONTACTUS_LASTNAME":"Name*",
     "CONTACTUS_FIRSTNAME":"First Name*",
     "CONTACTUS_EMAIL": "E-mail*",
@@ -31,26 +22,6 @@
     "CONTACTUS_INVALIDMOBILEERRORMESSAGE":"Not a valid mobile number!",
  	"CONTACTUS_REQUIREDMOBILEERRORMESSAGE":"Mobile number is required!",
  	"CONTACTUS_TOOSHORTMOBILEERRORMESSAGE":"Mobile number is too short!",
-
-
-    "FAVORITES_RATING":"Rate this offer",
-    "FAVORITES_SPECIALOFFERTITLE":"ADIB Special Offer",
-    "FAVORITES_WHERETOFINDUS":"Where to find us",
-    "FAVORITES-FROM":"Offer valid from",
-    "FAVORITES-TO":"Offer valid until",
-    "FAVORITES-FURTHERINFORMATION":"Further information",
-    "FAVORITES-GETINTOUCH":"Get in touch",
-    "FAVORITESFILTERED-NORESULTS": "Sorry, no favourites offers to display.",
-    
-    
-    "FILTEREDOFFERS_RATING":"Rate this offer",
-    "FILTEREDOFFERS_SPECIALOFFERTITLE":"ADIB special offer",
-    "FILTEREDOFFERS_WHERETOFINDUS":"Where to find us",
-    "FILTEREDOFFERS-FROM":"Offer valid from",
-    "FILTEREDOFFERS-TO":"Offer valid until",
-    "FILTEREDOFFERS-FURTHERINFORMATION":"Further information",
-    "FILTEREDOFFERS-GETINTOUCH":"Get in touch",
- 	
  	
  	"LOGIN_HEADERPART1":"Welcome to MedicalID",
  	"LOGIN_HEADERPART2":"Your health and well is our concern!",
@@ -62,45 +33,6 @@
  	"VERIFICATION_HEADERPART1":"Verify your card",
  	"VERIFICATION_HEADERPART2":"This is a one time process",
  	"VERIFICATION_DISCLAIMER":"Having an issue with card data",
- 		
- 	"MERCHANTS_RATING":"Rate this offer",
-    "MERCHANTS_SPECIALOFFERTITLE":"ADIB special offer",
-    "MERCHANTS_WHERETOFINDUS":"Where to find us",
-    "MERCHANTS_WEBSITE":"Website",
-    "MERCHANTS-FROM":"Offer valid from",
-    "MERCHANTS-TO":"Offer valid until",
-    "MERCHANTS-FURTHERINFORMATION":"Further information",
-    "MERCHANTS-GETINTOUCH":"Get in touch",
-    
-    "OFFERDETAILS_RATING":"Rate this offer",
-    "OFFERDETAILS_SPECIALOFFERTITLE":"ADIB special offer",
-    "OFFERDETAILS_WHERETOFINDUS":"Where to find us",
-    "OFFERDETAILS-FROM":"Offer valid from",
-    "OFFERDETAILS-TO":"Offer valid until",
-    "OFFERDETAILS-FURTHERINFORMATION":"Further information",
-    "OFFERDETAILS-GETINTOUCH":"Get in touch",
-    
-    "SEARCH_HEADERPART1":"Search for massive savings",
-    "SEARCH_HEADERPART2":"massive",
-    "SEARCH_HEADERPART3":"savings",
-    
-    "SEARCHRESULT_RATING":"Rate this offer",
-    "SEARCHRESULT_SPECIALOFFERTITLE":"ADIB special offer",
-    "SEARCHRESULT_WHERETOFINDUS":"Where to find us",
-    "SEARCHRESULT-FROM":"Offer valid from",
-    "SEARCHRESULT-TO":"Offer valid until",
-    "SEARCHRESULT-FURTHERINFORMATION":"Further information",
-    "SEARCHRESULT-GETINTOUCH":"Get in touch",
-    "SEARCHRESULT-NORESULTS":"Sorry, the item you searched for cannot be found.",
-    
-    
-    "SHOWOFFER_RATING":"Rate this offer",
-    "SHOWOFFER_SPECIALOFFERTITLE":"ADIB special offer",
-    "SHOWOFFER_WHERETOFINDUS":"Where to find us",
-    "SHOWOFFER-FROM":"Offer valid from",
-    "SHOWOFFER-TO":"Offer valid until",
-    "SHOWOFFER-FURTHERINFORMATION":"Further information",
-    "SHOWOFFER-GETINTOUCH":"Get in touch",
     
     "USERPROFILE_NAMEERRORMESSAGE":"Please enter a name!",
     "USERPROFILE_MOBILEERRORMESSAGE":"Please enter a valid mobile number!",
@@ -136,10 +68,45 @@
     "USERPROFILE_HABITS_BLOODGROUPTYPE":"Blood Group Type : ",    
     "USERPROFILE_HABITS_NOTES":"Notes : ", 
     "USERPROFILE_INFORMATION":"User Information",
+    
     "FOODANDDIET_DATE":"Date : ",
     "FOODANDDIET_TYPE":"Type : ",
     "FOODANDDIET_DOSE":"Dose : ",
     
+    "CANCER_DATE":"Date : ",
+    "CANCER_PRIMARY":"Primary : ",
+    "CANCER_SECONDARY":"Secondary : ",
+    "CANCER_CHEMOTHERAPY":"Chemotherapy : ",
+    "CANCER_RADIOTHERAPY":"Radiotherapy : ",
+    
+    "TRAUMAHISTORY_DATE":"Date : ",
+    "TRAUMAHISTORY_DESCRIPTION":"Description : ",
+    "TRAUMAHISTORY_NOTES":"Notes : ",
+    
+    "ANAESTHESIA_DATE":"Date : ",
+    "ANAESTHESIA_DESCRIPTION":"Description : ",
+    "ANAESTHESIA_NOTES":"Notes : ",
+    
+    "SURGICALPROCEDURE_DATE":"Date : ",
+    "SURGICALPROCEDURE_DESCRIPTION":"Description : ",
+    "SURGICALPROCEDURE_PHYSICAN":"Physican : ",
+    "SURGICALPROCEDURE_NOTES":"Notes : ",
+     
+    "INVESTIGATIONS_LABORATORY":"Laboratory : ",
+    "INVESTIGATIONS_RADIOLOGICAL":"Radiological : ",
+    "INVESTIGATIONS_ATTACHMENT":"Attachment : ",
+     
+    "MEDICATIONS_NAME":"Name : ",
+    "MEDICATIONS_DOSE":"Dose : ",
+    "MEDICATIONS_FREQUENCY":"Frequency : ", 
+    
+    "MAJORILLNESS_NAME":"Name : ",
+    "MAJORILLNESS_NOTES":"Notes : ",
+    
+    "ALLERGIES_DRUG":"Drug : ",
+    "ALLERGIES_FOOD":"Food : ",
+	"ALLERGIES_OTHERS":"Others : ",
+	
     "OK": "Ok",
     "CANCEL": "Cancel",
     "LATER": "Later",

@@ -75,92 +75,6 @@ dsf.config(function ($translateProvider, $urlRouterProvider, $sceDelegateProvide
                 }
             }
         })
-        .state('search', {
-            url: '/search',
-            views: {
-                'viewContent': {
-                    templateUrl: "templates/search.html",
-                    controller: "searchController"
-                }
-            }
-        })
-     
-         .state('socialTwitter', {
-            url: '/socialTwitter',
-            views: {
-                'viewContent': {
-                    templateUrl: "templates/socialTwitter.html",
-                    controller: "socialTwitterController"
-                }
-            }
-        })
-        .state('favorites', {
-            url: '/favorites',
-            views: {
-                'viewContent': {
-                    templateUrl: "templates/favorites.html",
-                    controller: "favoritesController"
-                }
-            }
-        })
-        .state('showoffers', {
-            url: '/showoffers',
-            views: {
-                'viewContent': {
-                    templateUrl: "templates/showoffers.html",
-                    controller: "showoffersController"
-                }
-            }
-        })
-        .state('merchant', {
-            url: '/merchant',
-            views: {
-                'viewContent': {
-                    templateUrl: "templates/merchant.html",
-                    controller: "merchantController"
-                }
-            }
-        })
-       .state('adiboffers', {
-            url: '/adiboffers',
-            views: {
-                'viewContent': {
-                    templateUrl: "templates/adiboffers.html",
-                    controller: "adiboffersController"
-                }
-            }
-        })
-        .state('searchResultDetails', {
-        	params:{searchText:null,serachMall:null},
-            url: '/searchResultDetails',
-            views: {
-                'viewContent': {
-                    templateUrl: "templates/searchResultDetails.html",
-                    controller: "searchResultDetailsController"
-                }
-            }
-        })
-      
-  
-     .state('offerDetails', {
-        url: '/offerDetails',
-        views: {
-            'viewContent': {
-                templateUrl: "templates/offerDetails.html",
-                controller: "offerDetailsController"
-            }
-        }
-    })
-     .state('filteredOfferList', {
-    	params:{outletID:null,outletObj:null,CategoryID:null,CategoryObj:null,headerTitle:null},
-        url: '/filteredOfferList',
-        views: {
-            'viewContent': {
-                templateUrl: "templates/filteredOfferList.html",
-                controller: "filteredOfferListController"
-            }
-        }
-    })
       .state('TermsAndConditions', {
         url: '/TermsAndConditions',
         views: {
@@ -170,15 +84,6 @@ dsf.config(function ($translateProvider, $urlRouterProvider, $sceDelegateProvide
             }
         }
     })
-     .state('adibtopratedoffers', {
-            url: '/adibtopratedoffers',
-            views: {
-                'viewContent': {
-                    templateUrl: "templates/adibtopratedoffers.html",
-                    controller: "adibtopratedoffersController"
-                }
-            }
-        })
       .state('verification', {
             url: '/verification',
             views: {
@@ -187,7 +92,99 @@ dsf.config(function ($translateProvider, $urlRouterProvider, $sceDelegateProvide
                     controller: "verificationController"
                 }
             }
-        })   
+        })
+    .state('allergies', {
+      url: '/allergies',
+      views: {
+          'viewContent': {
+              templateUrl: "templates/allergies.html",
+              controller: "allergiesController"
+          }
+      }
+        })
+        .state('majorIllness', {
+        	url: '/majorIllness',
+        	views: {
+        	  'viewContent': {
+              templateUrl: "templates/majorillness.html",
+              controller: "majorIllnessController"
+          }
+      }
+  })     
+  .state('medicalEvents', {
+      url: '/medicalEvents',
+      views: {
+          'viewContent': {
+              templateUrl: "templates/medicalEvents.html",
+              controller: "medicalEventsController"
+          }
+      }
+  })   
+     .state('medications', {
+         url: '/medications',
+         views: {
+             'viewContent': {
+                 templateUrl: "templates/medications.html",
+                 controller: "medicationsController"
+             }
+         }
+     })   
+    .state('investigations', {
+        url: '/investigations',
+        views: {
+            'viewContent': {
+                templateUrl: "templates/tests.html",
+                controller: "testsController"
+            }
+        }
+    })  
+    .state('surgicalProcedures', {
+            url: '/surgicalProcedures',
+            views: {
+                'viewContent': {
+                    templateUrl: "templates/surgicalProcedure.html",
+                    controller: "surgicalProceduresController"
+                }
+            }
+        })        
+    .state('anaesthesiaProblem', {
+            url: '/anaesthesiaProblem',
+            views: {
+                'viewContent': {
+                    templateUrl: "templates/anaesthesiaProblem.html",
+                    controller: "anaesthesiaProblemController"
+                }
+            }
+        })         
+    .state('traumaHistory', {
+            url: '/traumaHistory',
+            views: {
+                'viewContent': {
+                    templateUrl: "templates/traumaHistory.html",
+                    controller: "traumaHistoryController"
+                }
+            }
+        })     
+    .state('cancerhistory', {
+            url: '/cancerhistory',
+            views: {
+                'viewContent': {
+                    templateUrl: "templates/cancerHistory.html",
+                    controller: "cancerHistoryController"
+                }
+            }
+        }) 
+        
+    .state('foodndiet', {
+            url: '/foodndiet',
+            views: {
+                'viewContent': {
+                    templateUrl: "templates/FoodAndDiet.html",
+                    controller: "FoodAndDietController"
+                }
+            }
+        }) 
+        
     ;
 
    if(localStorage.getItem('dsf-userID')=="undefined" || localStorage.getItem('dsf-userID')==null)
