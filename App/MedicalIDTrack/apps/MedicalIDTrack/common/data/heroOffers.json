@@ -1,0 +1,40 @@
+[{
+	"PERMIT_NUMBER": 999901,
+	"TITLE": "Shop, Play & Win",
+	"ID": 1000001,
+	"OfferImage": "images/homeCarsoul/shopwinplay.png",
+	"OfferImage2x": "images/homeCarsoul/shopwinplay-2x.png"
+
+
+}, {
+	"PERMIT_NUMBER": 999902,
+	"TITLE": "Win 5 KG Gold",
+	"ID": 1000002,
+	"OfferImage": "images/homeCarsoul/wingold.png",
+	"OfferImage2x": "images/homeCarsoul/wingold-2x.png"
+
+},{
+	"PERMIT_NUMBER": 999905,
+	"TITLE": "Over 2.5kg Gold Prizes",
+	"ID": 1000005,
+	"OfferImage": "images/homeCarsoul/tentcard.png",
+	"OfferImage2x": "images/homeCarsoul/tentcard-2x.png"
+}, {
+	"PERMIT_NUMBER": 999906,
+	"TITLE": "10% Cashback",
+	"ID": 1000006,
+	"OfferImage": "images/homeCarsoul/wobbler.png",
+	"OfferImage2x": "images/homeCarsoul/wobbler-2x.png"
+}, {
+	"PERMIT_NUMBER": 999907,
+	"TITLE": "10% Cashback",
+	"ID": 1000007,
+	"OfferImage": "images/homeCarsoul/etisalat.png",
+	"OfferImage2x": "images/homeCarsoul/etisalat-2x.png"
+}, {
+	"PERMIT_NUMBER": 999908,
+	"TITLE": "10% Cashback",
+	"ID": 1000008,
+	"OfferImage": "images/homeCarsoul/dragonMart.png",
+	"OfferImage2x": "images/homeCarsoul/dragonMart-2x.png"
+}]

@@ -1,0 +1,71 @@
+<div id="content">
+	<!-- contact form -->
+	<form class="contact-form">
+		<div name="contactus_form" ng-form="contactus_form" ng-app="dsfApp">
+			<div class="form-row">
+				<label for="lname">{{"CONTACTUS_LASTNAME"| translate}}</label> <input id="lname" type="text"
+					placeholder="Name" ng-required="true" ng-model="lname" name="lname" ng-pattern="{{'patternToUSe'}}"> <span style="color: red" ng-show="contactus_form.lname.$dirty && contactus_form.lname.$invalid">
+					<span ng-show="contactus_form.lname.$error.pattern">{{"CONTACTUS_INVALIDNAMEERRORMESSAGE"|translate}}</span>
+					<span ng-show="contactus_form.lname.$error.required">{{"CONTACTUS_REQUIREDNAMEERRORMESSAGE"|translate}}</span>
+				</span>
+			</div>
+			<!--  <div class="form-row">
+				<label for="fname">{{"CONTACTUS_FIRSTNAME"| translate}}</label> <input id="fname" type="text"
+					ng-required="true" ng-model="fname" name="fname" ng-pattern="/^([a-zA-Z]+\s)*[a-zA-Z]+$/"> <span
+					style="color: red"
+					ng-show="contactus_form.fname.$dirty && contactus_form.fname.$invalid">
+					<span ng-show="contactus_form.fname.$error.pattern">{{"CONTACTUS_INVALIDNAMEERRORMESSAGE"|translate}}</span>
+					<span ng-show="contactus_form.fname.$error.required">{{"CONTACTUS_REQUIREDNAMEERRORMESSAGE"|translate}}</span>
+				</span>
+			</div>  -->
+			<div class="form-row">
+				<label for="email">{{"CONTACTUS_EMAIL"| translate}}</label> <input id="email" type="email"
+					placeholder="name@yourwebsite.com" ng-required="true"
+					ng-model="email" name="email" ng-pattern='/^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i'><span style="color: red"
+					ng-show="contactus_form.email.$dirty && contactus_form.email.$invalid">
+					<span ng-show="contactus_form.email.$error.required">{{"CONTACTUS_REQUIREDEMAILERRORMESSAGE"|translate}}</span>
+				<span ng-show="contactus_form.email.$error.pattern">{{"CONTACTUS_INVALIDEMAILERRORMESSAGE"|translate}}</span>
+				</span>
+			</div>
+			<div class="form-row">
+				<label for="mobile">{{"CONTACTUS_MOBILE"| translate}}</label> 
+				<div class="countries-number">
+					<input id="mobile" type="tel" placeholder="567 456 3456"
+						ng-required="true" ng-model="mobile" name="mobile"
+						ng-minlength="5" ng-maxlength="10" ng-pattern="/^[0-9]*$/">
+							<span style="color: red"
+					ng-show="contactus_form.mobile.$dirty && contactus_form.mobile.$invalid">
+					<span ng-show="contactus_form.mobile.$error.pattern">{{"CONTACTUS_INVALIDMOBILEERRORMESSAGE"|translate}}</span>
+					<span ng-show="contactus_form.mobile.$error.required">{{"CONTACTUS_REQUIREDMOBILEERRORMESSAGE"|translate}}</span>
+					<span ng-show="contactus_form.mobile.$error.mobile">{{"CONTACTUS_INVALIDMOBILEERRORMESSAGE"|translate}}</span>
+					<span ng-show="contactus_form.mobile.$error.maxlength">Mobile number is too long.</span>
+					<span style="color: red" ng-show="contactus_form.mobile.$error.minlength">{{"CONTACTUS_TOOSHORTMOBILEERRORMESSAGE"|translate}}</span> </span>
+				</div>
+			</div>
+			<div class="form-row">
+				<label for="married">{{"CONTACTUS_CATEGORY"| translate}}</label> <select id="categories" ng-model="categories">
+					<option class="default">Please select from dropdown</option>
+					<option>Suggestion</option>
+					<option>Complaint</option>
+					<option>Inquiry</option>
+				</select>
+			</div>
+			<div class="form-row">
+				<label for="message">{{"CONTACTUS_MESSAGE"| translate}}</label>
+				<textarea id="message" cols="30" rows="10"
+					placeholder="Type your message here" ng-required="true"
+					ng-model="message" name="message"></textarea>
+				<span style="color: red"
+					ng-show="contactus_form.message.$dirty && contactus_form.message.$invalid">
+					<span ng-show="contactus_form.message.$error.required">Message is required.</span>
+				</span>
+			</div>
+			<div class="form-row buttons" ng-if="contactus_form.lname.$valid&&contactus_form.message.$valid &&contactus_form.email.$valid&&contactus_form.mobile.$valid">
+				<input type="submit" value="Send" ng-click="submitFeedback()">
+			</div>
+			<div class="form-row buttons" ng-if="contactus_form.lname.$invalid ||contactus_form.message.$invalid || contactus_form.email.$invalid ||contactus_form.mobile.$invalid">
+				<input type="submit" value="Send" ng-click="validateData()">
+			</div>
+		</div>
+	</form>
+</div>

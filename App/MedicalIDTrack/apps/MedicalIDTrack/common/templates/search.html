@@ -1,0 +1,31 @@
+<div id="content">
+	<!-- search form -->
+	
+	<form class="search-form" >
+		<div class="search-heading">
+			<h1>
+				<br>{{"SEARCH_HEADERPART1" |translate}}<br> 
+				<!-- {{"SEARCH_HEADERPART2" |translate}}<br>  {{"SEARCH_HEADERPART3" |translate}} -->
+			</h1>
+			<div class="form-row">
+				<select id="selectMall" class="filter" name="mallToSearch" ng-model="search.mallToSearch" required>
+	  				<option class="placeholder" selected disabled value="" >Filter by Mall</option>
+					<option  ng-repeat="mallObj in mallList | orderBy:'mallName' track by $index " value='{{mallObj.mallName}}'>{{mallObj.mallName}}</option>		
+				</select>
+			</div> 
+		</div>
+		<div class="search-content">
+			<div class="form-row">
+				<textarea id="searchBox" cols="30" rows="10" ng-model="search.searchOfferKeyword" placeholder="Enter text..." ng-focus="textFieldTookFocus()"></textarea>
+			
+					<div class="autocomplete">
+					<ul>
+						<li ng-repeat="name in filteredNames" ng-click="itemSelected(this)">{{name}}</li>
+					</ul>
+				</div>
+				<br><br>
+				<input type="button" value="Search" ng-click="search()">
+			</div>
+		</div>
+	</form>
+</div>

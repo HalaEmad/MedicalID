@@ -1,0 +1,2756 @@
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS and IE text size adjust after device orientation change,
+ *    without disabling user zoom.
+ */
+
+html {
+	font-family: sans-serif; /* 1 */
+	-ms-text-size-adjust: 100%; /* 2 */
+	-webkit-text-size-adjust: 100%; /* 2 */
+		/* Cristian comment 
+	user-select disables highlighting text/areas.
+	touch-callout disables context menu popup.
+	*/
+/*	-webkit-user-select: none; */
+    -webkit-touch-callout: none;
+	
+}
+
+/**
+ * Remove default margin.
+ */
+
+body {
+	margin: 0;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+	display: block!important;
+}
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+
+audio,
+canvas,
+progress,
+video {
+	display: inline-block; /* 1 */
+	vertical-align: baseline; /* 2 */
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+
+audio:not([controls]) {
+	display: none;
+	height: 0;
+}
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.
+ */
+
+[hidden],
+template {
+	display: none;
+}
+
+/* Links
+   ========================================================================== */
+
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+
+a {
+	background-color: transparent;
+}
+
+/**
+ * Improve readability of focused elements when they are also in an
+ * active/hover state.
+ */
+
+a:active,
+a:hover {
+	outline: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+
+abbr[title] {
+	border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+
+b,
+strong {
+	font-weight: bold;
+}
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+
+dfn {
+	font-style: italic;
+}
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+
+h1 {
+	font-size: 2em;
+	margin: .67em 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+
+mark {
+	background: #ff0;
+	color: #000;
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+
+small {
+	font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+
+sub,
+sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sup {
+	top: -.5em;
+}
+
+sub {
+	bottom: -.25em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+
+img {
+	border: 0;
+}
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+
+svg:not(:root) {
+	overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+
+figure {
+	margin: 1em 40px;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+
+hr {
+	box-sizing: content-box;
+	height: 0;
+}
+
+/**
+ * Contain overflow in all browsers.
+ */
+
+pre {
+	overflow: auto;
+}
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+
+code,
+kbd,
+pre,
+samp {
+	font-family: monospace, monospace;
+	font-size: 1em;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+	color: inherit; /* 1 */
+	font: inherit; /* 2 */
+	margin: 0; /* 3 */
+}
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+
+button {
+	overflow: visible;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+
+button,
+select {
+	text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	-webkit-appearance: button; /* 2 */
+	cursor: pointer; /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+
+button[disabled],
+html input[disabled] {
+	cursor: default;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+
+input {
+	line-height: normal;
+}
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+
+input[type="checkbox"],
+input[type="radio"] {
+	box-sizing: border-box; /* 1 */
+	padding: 0; /* 2 */
+}
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+	height: auto;
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome.
+ */
+
+input[type="search"] {
+	-webkit-appearance: textfield; /* 1 */
+	box-sizing: content-box; /* 2 */
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+	-webkit-appearance: none;
+}
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+
+fieldset {
+	border: 1px solid #c0c0c0;
+	margin: 0 2px;
+	padding: .35em .625em .75em;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+
+legend {
+	border: 0; /* 1 */
+	padding: 0; /* 2 */
+}
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+
+textarea {
+	overflow: auto;
+}
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+
+optgroup {
+	font-weight: bold;
+}
+
+/* Tables
+   ========================================================================== */
+
+/**
+ * Remove most spacing between table cells.
+ */
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+td,
+th {
+	padding: 0;
+}
+
+#nav,
+.items-list,
+.events-list,
+.offers-list,
+.offer-gallery .pagination,
+.search-form .autocomplete ul {
+	margin: 0;
+	padding: 0;
+}
+
+#nav li,
+.items-list li,
+.events-list li,
+.offers-list li,
+.offer-gallery .pagination li,
+.search-form .autocomplete ul li {
+	list-style: none;
+}
+
+.showOffersHomeBtn {
+	margin: 8% 0;
+}
+
+.slideCategory{
+	float: left;
+	background: white;
+}
+
+.slidesetCategories{
+	width: 100%;
+	overflow-x: auto;
+    white-space: nowrap;
+    margin-top: 2px;
+    margin-bottom: 2%;
+}
+
+.categoryItem{
+	background: white;
+	display: inline-block;
+	margin: 0 1px;
+    padding: 16px 3px 0px 5px;
+    max-width: 28%;
+}
+
+.categoryItem p {
+    margin: 5px;
+    color: black;
+    font-size: 0.9em;
+}
+
+.jcf-select .jcf-select-text,
+.categories-carousel .slide .title {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.item-info .item-fav .facebook:before {
+	font-family: "icomoon";
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+* {
+	max-height: 1000000px;
+}
+
+body {
+	color: #fff;
+	background: #000;
+	font: 16px/1.2 "Helvetica", "Arial", sans-serif;
+	min-width: 320px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.gm-style img {
+	max-width: none;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6,
+.h {
+	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+	font-weight: 100;
+	margin: 0 0 .5em;
+	color: inherit;
+}
+
+h1,
+.h1 {
+	font-size: 30px;
+}
+
+h2,
+.h2 {
+	font-size: 27px;
+}
+
+h3,
+.h3 {
+	font-size: 24px;
+}
+
+h4,
+.h4 {
+	font-size: 21px;
+}
+
+h5,
+.h5 {
+	font-size: 17px;
+}
+
+h6,
+.h6 {
+	font-size: 15px;
+}
+
+p {
+	margin: 0 0 1em;
+}
+
+a {
+	color: #00b1e2;
+}
+
+a:hover,
+a:focus {
+	text-decoration: none;
+}
+
+form,
+fieldset {
+	margin: 0;
+	padding: 0;
+	border-style: none;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="search"],
+input[type="password"],
+input[type="url"],
+input[type="date"],
+textarea {
+	display: block;
+	margin: 0 0 15px;
+	border: 0;
+	border-radius: 2px;
+	padding: 8px 13px;
+	width: 100%;
+	height: 37px;
+	line-height: 21px;
+	font-size: 15px;
+	font-weight: 300;
+	color: #000;
+	-webkit-appearance: none;
+	-webkit-border-radius: 0;
+}
+
+input[type="text"]::-moz-placeholder,
+input[type="tel"]::-moz-placeholder,
+input[type="email"]::-moz-placeholder,
+input[type="search"]::-moz-placeholder,
+input[type="password"]::-moz-placeholder,
+input[type="url"]::-moz-placeholder,
+input[type="date"]::-moz-placeholder,
+textarea::-moz-placeholder {
+	color: #ccc;
+	opacity: 1;
+}
+
+input[type="text"]:-ms-input-placeholder,
+input[type="tel"]:-ms-input-placeholder,
+input[type="email"]:-ms-input-placeholder,
+input[type="search"]:-ms-input-placeholder,
+input[type="password"]:-ms-input-placeholder,
+input[type="url"]:-ms-input-placeholder,
+input[type="date"]:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+	color: #ccc;
+}
+
+input[type="text"]::-webkit-input-placeholder,
+input[type="tel"]::-webkit-input-placeholder,
+input[type="email"]::-webkit-input-placeholder,
+input[type="search"]::-webkit-input-placeholder,
+input[type="password"]::-webkit-input-placeholder,
+input[type="url"]::-webkit-input-placeholder,
+input[type="date"]::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+	color: #ccc;
+}
+
+input[type="text"]:-moz-placeholder,
+input[type="tel"]:-moz-placeholder,
+input[type="email"]:-moz-placeholder,
+input[type="search"]:-moz-placeholder,
+input[type="password"]:-moz-placeholder,
+input[type="url"]:-moz-placeholder,
+input[type="date"]:-moz-placeholder,
+textarea:-moz-placeholder {
+	color: #ccc;
+}
+
+input[type="text"].placeholder,
+input[type="tel"].placeholder,
+input[type="email"].placeholder,
+input[type="search"].placeholder,
+input[type="password"].placeholder,
+input[type="url"].placeholder,
+input[type="date"].placeholder,
+textarea.placeholder {
+	color: #ccc;
+}
+
+.error input[type="text"],
+.error
+  input[type="tel"],
+.error
+  input[type="email"],
+.error
+  input[type="search"],
+.error
+  input[type="password"],
+.error
+  input[type="url"],
+.error
+  input[type="date"],
+.error
+  textarea {
+	box-shadow: 0 0 3px #f00 inset;
+}
+
+select {
+	-webkit-border-radius: 0;
+}
+
+textarea {
+	height: 87px;
+	min-height: 87px;
+	resize: vertical;
+	vertical-align: top;
+}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="file"],
+input[type="submit"] {
+	margin: 0 0 15px;
+	border: 0;
+	border-radius: 4px;
+	padding: 6px 18px;
+	width: 100%;
+	height: 45px;
+	font-size: 21px;
+	color: #fff;
+	background: #06f;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, .5);
+	-webkit-appearance: none;
+	-webkit-border-radius: 0;
+	cursor: pointer;
+}
+
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="file"]:hover,
+input[type="submit"]:hover {
+	background: #3385ff;
+}
+
+input[type="checkbox"] + label,
+.jcf-checkbox + label,
+input[type="radio"] + label,
+.jcf-radio + label {
+	display: inline-block;
+	margin: 0;
+	font-weight: 300;
+	vertical-align: middle;
+}
+
+/* custom checkbox styles */
+
+.jcf-checkbox {
+	vertical-align: middle;
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+	cursor: default;
+	background: #fff;
+	margin: 0 3px 0 0;
+	height: 16px;
+	width: 16px;
+}
+
+.jcf-checkbox span {
+	position: absolute;
+	display: none;
+	height: 5px;
+	width: 9px;
+	top: 50%;
+	left: 50%;
+	margin: -7px 0 0 -6px;
+	border: 3px solid #39f;
+	border-width: 0 0 2px 2px;
+	-ms-transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.7071067811865483, M12=0.7071067811865467, M21=-0.7071067811865467, M22=0.7071067811865483, SizingMethod='auto expand')";
+}
+
+:root .jcf-checkbox span {
+	margin: -3px 0 0 -4px;
+}
+
+.jcf-checkbox input[type="checkbox"] {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border: 0;
+	margin: 0;
+	left: 0;
+	top: 0;
+}
+
+.jcf-checkbox.jcf-checked span {
+	display: block;
+}
+
+/* custom radio styles */
+
+.jcf-radio {
+	display: inline-block;
+	position: relative;
+	margin: 0 5px 0 0;
+	border-radius: 50%;
+	overflow: hidden;
+	height: 16px;
+	width: 16px;
+	vertical-align: middle;
+	background: #fff;
+	cursor: default;
+}
+
+.jcf-radio span {
+	display: none;
+	position: absolute;
+	top: 3px;
+	left: 3px;
+	right: 3px;
+	bottom: 3px;
+	background: #39f;
+	border-radius: 100%;
+}
+
+.jcf-radio input[type="radio"] {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	border: 0;
+	margin: 0;
+	left: 0;
+	top: 0;
+}
+
+.jcf-radio.jcf-checked span {
+	display: block;
+}
+
+/* custom select styles */
+
+.jcf-select {
+	display: inline-block;
+	position: relative;
+	border-radius: 2px;
+	margin: 0 0 15px;
+	width: 100%;
+	min-width: 150px;
+	height: 37px;
+	vertical-align: top;
+	color: #333;
+	background: #fff;
+}
+
+.error .jcf-select {
+	box-shadow: 0 0 3px #f00 inset;
+}
+
+.jcf-select.jcf-drop-active {
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.jcf-select.jcf-drop-active .jcf-select-opener:before {
+	border: 0;
+	width: 14px;
+	height: 10px;
+	background: url(../images/sprite-2x.png) no-repeat -115px 0;
+	background-size: 150px 50px;
+}
+
+.jcf-select select {
+	z-index: 1;
+	left: 0;
+	top: 0;
+}
+
+.jcf-select .jcf-option-default {
+	color: #ccc;
+}
+
+.jcf-select .jcf-select-text {
+	display: block;
+	margin: 0 46px 0 13px;
+	line-height: 37px;
+	font-size: 15px;
+	font-weight: 300;
+	cursor: default;
+}
+
+.jcf-select .jcf-select-opener {
+	position: absolute;
+	text-align: center;
+	width: 46px;
+	bottom: 0;
+	right: 0;
+	top: 0;
+}
+
+.jcf-select .jcf-select-opener:before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -5px 0 0 -7px;
+	border: solid transparent;
+	border-width: 10px 7px 0;
+	border-top-color: #666;
+}
+
+body > .jcf-select-drop {
+	position: absolute;
+	margin: -1px 0 0;
+	z-index: 9999;
+}
+
+body > .jcf-select-drop.jcf-drop-flipped {
+	margin: 1px 0 0;
+}
+
+.jcf-select .jcf-select-drop {
+	position: absolute;
+	margin-top: 0;
+	z-index: 9999;
+	top: 100%;
+	left: -1px;
+	right: -1px;
+}
+
+.jcf-select .jcf-drop-flipped {
+	bottom: 100%;
+	top: auto;
+}
+
+.jcf-select-drop .jcf-select-drop-content {
+	border: 1px solid #fff;
+	border-bottom-left-radius: 1px;
+	border-bottom-right-radius: 1px;
+}
+
+/* multiple select styles */
+
+.jcf-list-box {
+	overflow: hidden;
+	display: inline-block;
+	border: 1px solid #b8c3c9;
+	min-width: 200px;
+	margin: 0 15px;
+}
+
+/* select options styles */
+
+.jcf-list {
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	background: #fff;
+	line-height: 26px;
+	font-size: 15px;
+	width: 100%;
+}
+
+.jcf-list .jcf-list-content {
+	vertical-align: top;
+	display: inline-block;
+	overflow: auto;
+	width: 100%;
+}
+
+.jcf-list .jcf-list-content .jcf-option-default {
+	display: none;
+}
+
+.jcf-list ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.jcf-list ul li {
+	overflow: hidden;
+	display: block;
+}
+
+.jcf-list .jcf-overflow {
+	overflow: auto;
+}
+
+.jcf-list .jcf-option {
+	white-space: nowrap;
+	overflow: hidden;
+	cursor: default;
+	display: block;
+	padding: 5px 12px;
+	color: #333;
+	height: 1%;
+}
+
+.jcf-list .jcf-disabled {
+	background: #fff !important;
+	color: #aaa !important;
+}
+
+.jcf-select-drop .jcf-hover,
+.jcf-list-box .jcf-selected {
+	background: #39f;
+	color: #fff;
+}
+
+.jcf-list .jcf-optgroup-caption {
+	white-space: nowrap;
+	font-weight: bold;
+	display: block;
+	padding: 5px 9px;
+	cursor: default;
+	color: #333;
+}
+
+.jcf-list .jcf-optgroup .jcf-option {
+	padding-left: 30px;
+}
+
+/* common custom form elements styles */
+
+.jcf-disabled {
+	background: #ddd !important;
+}
+
+@font-face {
+	font-family: "icomoon";
+	src: url("../fonts/icomoon.eot?g1re6a");
+	src: url("../fonts/icomoon.eot?g1re6a#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?g1re6a") format("truetype"), url("../fonts/icomoon.woff?g1re6a") format("woff"), url("../fonts/icomoon.svg?g1re6a#icomoon") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+	font-family: "icomoon";
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1; /* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-menu:before {
+	content: "\e900";
+}
+
+.icon-search:before {
+	content: "\e901";
+}
+
+.icon-cart:before {
+	content: "\e902";
+}
+
+.icon-star:before {
+	content: "\e903";
+}
+
+.icon-facebook:before {
+	content: "\e904";
+}
+
+.icon-touch:before {
+	content: "\e905";
+}
+
+.icon-location:before {
+	content: "\e906";
+}
+
+.icon-time:before {
+	content: "\e907";
+}
+
+.icon-box:before {
+	content: "\e908";
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+}
+
+/* main container of all the page elements */
+
+#wrapper {
+	position: relative;
+	overflow: hidden;
+	padding: 20px;
+	height: 100%;
+}
+
+#wrapper:after {
+	content: "";
+	position: absolute;
+	z-index: 9;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0, 0, 0, .75);
+	-webkit-transition: all .25s;
+	transition: all .25s;
+	visibility: hidden;
+	opacity: 0;
+}
+
+.nav-active #wrapper:after {
+	visibility: visible;
+	opacity: 1;
+}
+
+.bg-stretch {
+	overflow: hidden;
+	height: 100%;
+}
+
+.bg-stretch img {
+	max-width: inherit;
+}
+
+/* background image */
+
+.bg-main {
+	position: fixed;
+	z-index: -1;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+/* logo */
+
+.logo {
+	position: absolute;
+	top: 6px;
+	left: 50%;
+	margin: 0 0 0 -155px;
+	padding-top: 41px;
+	background: url("../images/logo-bg.png") no-repeat;
+	width: 310px;
+	height: 193px;
+}
+
+.logo a {
+	display: block;
+	margin: 0 auto;
+	width: 203px;
+}
+
+.logo img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+/* enter block */
+
+.enter-block {
+	padding: 0px 0 0;
+	text-align: center;
+}
+
+.enter-block h1 {
+	margin: 0 0 22px;
+	font: 100 35px/35px "Roboto", "Helvetica", "Arial", sans-serif;
+	letter-spacing: -.5px;
+}
+
+.enter-block p {
+	margin: 0 30px 26px;
+	font: 100 17px/22px "Roboto", "Helvetica", "Arial", sans-serif;
+	letter-spacing: -.1px;
+}
+
+/* enter form */
+
+.enter-form {
+	margin: 0 auto;
+	max-width: 292px;
+}
+
+.enter-form .form-row.buttons {
+	/* padding-top: 8px; */
+}
+
+.enter-form input[type="text"],
+.enter-form input[type="tel"] {
+	display: block;
+	margin: 0 0 15px;
+	border: 0;
+	border-radius: 4px;
+	padding: 6px 18px;
+	width: 100%;
+	height: 40px;
+	line-height: 28px;
+	font-size: 20px;
+	background: #fff;
+	color: #333;
+}
+
+.enter-form input[type="text"]::-moz-placeholder,
+.enter-form input[type="tel"]::-moz-placeholder {
+	color: #ccc;
+	opacity: 1;
+}
+
+.enter-form input[type="text"]:-ms-input-placeholder,
+.enter-form input[type="tel"]:-ms-input-placeholder {
+	color: #ccc;
+}
+
+.enter-form input[type="text"]::-webkit-input-placeholder,
+.enter-form input[type="tel"]::-webkit-input-placeholder {
+	color: #ccc;
+}
+
+.enter-form input[type="text"]:-moz-placeholder,
+.enter-form input[type="tel"]:-moz-placeholder {
+	color: #ccc;
+}
+
+.enter-form input[type="text"].placeholder,
+.enter-form input[type="tel"].placeholder {
+	color: #ccc;
+}
+
+.enter-form input[type="submit"] {
+	margin: 0 0 15px;
+	border: 0;
+	border-radius: 4px;
+	padding: 6px 18px;
+	width: 100%;
+	height: 45px;
+	font-size: 21px;
+	color: #fff;
+	background: #06f;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, .5);
+}
+
+.enter-form input[type="submit"]:hover {
+	background: #3385ff;
+}
+
+.form-row {
+	margin: 0 0 15px;
+}
+
+.form-row input[type="text"],
+.form-row input[type="tel"],
+.form-row input[type="email"],
+.form-row input[type="search"],
+.form-row input[type="password"],
+.form-row input[type="url"],
+.form-row input[type="date"],
+.form-row button,
+.form-row input[type="button"],
+.form-row input[type="reset"],
+.form-row input[type="file"],
+.form-row input[type="submit"],
+.form-row .jcf-select,
+.form-row textarea {
+	margin: 0;
+}
+
+/* header */
+
+#header {
+	/* position: absolute;
+	top: 0;
+	left: 19px;
+	right: 19px;
+	border-bottom: 1px solid transparent;
+	padding-top: 25px;
+	height: 65px; */
+	width: 100%;
+ 	position: absolute;
+ 	top: 0;
+	padding: 0 19px;
+	left: 0px;
+ 	border-bottom: 1px solid transparent;
+ 	padding-top: 25px;
+ 	height: 65px;
+	background: rgba(29, 29, 37, .6);
+	
+}
+
+#header.bordered {
+/* 	border-bottom-color: #00b1e2; */
+}
+
+#header h1 {
+	margin: 0 40px;
+	font: 300 20px/36px "Roboto", "Helvetica", "Arial", sans-serif;
+	text-align: center;
+	color: #fff;
+}
+
+.link-nav {
+	float: left;
+	line-height: 36px;
+	font-size: 27px;
+	width: 28px;
+	text-align: center;
+	text-decoration: none;
+	color: #00b1e2;
+}
+
+.link-nav:hover {
+	color: #fff;
+}
+
+.link-nav span {
+	display: none;
+}
+
+.link-search {
+	float: right;
+	line-height: 40px;
+	font-size: 23px;
+	width: 24px;
+	text-align: center;
+	text-decoration: none;
+	color: #00b1e2;
+}
+
+.link-search:hover {
+	color: #fff;
+}
+
+.link-search span {
+	display: none;
+}
+
+/* menu */
+
+.nav-drop {
+	position: absolute;
+	z-index: 10;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	width: 250px;
+	overflow: auto;
+	background: #282727;
+	-webkit-transition: -webkit-transform .25s;
+	transition: transform .25s;
+	-webkit-transform: translateX(-100%);
+	-ms-transform: translateX(-100%);
+	transform: translateX(-100%);
+}
+
+.nav-drop .inside {
+	width: 100%;
+}
+
+.nav-drop .visual img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.nav-active .nav-drop {
+	-webkit-transform: translateX(0);
+	-ms-transform: translateX(0);
+	transform: translateX(0);
+}
+
+/* main navigation */
+
+#nav {
+	padding-top: 13px;
+	line-height: 24px;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+#nav li + li {
+	border-top: 1px solid #1c1b1b;
+}
+
+#nav a {
+	display: block;
+	padding: 12px 58px;
+	padding-right: 20px;
+	text-decoration: none;
+	color: #19b5fe;
+}
+
+#nav a i {
+	float: left;
+	margin: 0 0 0 -38px;
+	/* background: url("../images/sprite.png") no-repeat;
+	width: 150px;
+	height: 50px;
+	width: 23px;
+	height: 23px; */
+}
+
+#nav a .icon-home {
+	background-position: 0 0;
+}
+
+#nav a .icon-user {
+	background-position: -23px 0;
+}
+
+#nav a .icon-offer {
+	background-position: -46px 0;
+}
+
+#nav a .icon-event {
+	background-position: -69px 0;
+}
+
+#nav a .icon-adib {
+	background-position: -92px 0;
+}
+
+#nav a:hover {
+	background: #161515;
+}
+
+#nav a:hover .icon-home {
+	background-position: 0 -23px;
+}
+
+#nav a:hover .icon-user {
+	background-position: -23px -23px;
+}
+
+#nav a:hover .icon-offer {
+	background-position: -46px -23px;
+}
+
+#nav a:hover .icon-event {
+	background-position: -69px -23px;
+}
+
+#nav a:hover .icon-adib {
+	background-position: -92px -23px;
+}
+
+#nav li.active a {
+	background: #161515;
+}
+
+#nav li.active a .icon-home {
+	background-position: 0 -23px;
+}
+
+#nav li.active a .icon-user {
+	background-position: -23px -23px;
+}
+
+#nav li.active a .icon-offer {
+	background-position: -46px -23px;
+}
+
+#nav li.active a .icon-event {
+	background-position: -69px -23px;
+}
+
+#nav li.active a .icon-adib {
+	background-position: -92px -23px;
+}
+
+/* main content */
+
+#content {
+	position: absolute;
+	top: 65px;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	padding: 20px;
+	overflow: auto;
+}
+
+.content-inner {
+	margin: -20px -20px 0;
+	overflow: hidden;
+}
+
+/* items list */
+
+.items-list {
+	margin: 0 0 20px;
+	padding: 0 20px;
+}
+
+.items-list.swipe-active {
+	-ms-touch-action: none;
+	touch-action: none;
+}
+
+.items-list li {
+	border-bottom: 1px solid rgba(0, 177, 226, .3);
+}
+
+.items-list li .area {
+	left: 0;
+	position: relative;
+	-webkit-transition: left .25s ease;
+	transition: left .25s ease;
+}
+
+.items-list li .slide {
+	-webkit-transition: visibility .25s ease, opacity .25s ease;
+	transition: visibility .25s ease, opacity .25s ease;
+	visibility: hidden;
+	opacity: 0;
+}
+
+.items-list li.active .slide {
+	visibility: visible;
+	opacity: 1;
+}
+
+.items-list .area:hover .titles-area {
+	background: rgba(0, 0, 0, .5);
+}
+
+.items-list li.slided .area {
+	left: -135px;
+}
+
+.items-list li.slided .titles-area .description {
+	color: #0cf;
+}
+
+.items-list li.active .description {
+	color: #00b1e2;
+}
+
+.items-list .heading {
+	position: relative;
+	margin: 0 -20px;
+}
+
+.items-list .titles-area {
+	display: block;
+	position: relative;
+	overflow: hidden;
+	padding: 15px 17px 15px 57px; /*Reduce the top & bottom space in item list to 15 insted of 22*/
+	text-decoration: none;
+	color: #fcfeff;
+	 min-height:120px;/*Kady Fix */
+}
+
+.items-list .titles-area .icon {
+	position: absolute;
+	top: 18px;
+	left: 22px;
+	font-size: 23px;
+	line-height: 34px;
+	color: #00b1e2;
+}
+
+.items-list .titles-area h2 {
+	margin: 0 0 2px;
+	font: 100 28px/33px "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+.items-list .titles-area .description {
+	font: 20px/25px "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+.items-list .titles-area .description span {
+	font-family: "Helvetica", "Arial", sans-serif;
+}
+
+.items-list .fav-holder {
+	position: absolute;
+	top: 0;
+	left: 100%;
+	bottom: 0;
+	width: 135px;
+	font: 20px/20px "Roboto", "Helvetica", "Arial", sans-serif;
+	text-align: center;
+	text-decoration: none;
+	color: #fffefe;
+	background: #00b1e2;
+}
+
+.items-list .fav-holder:hover {
+	background: #16ccff;
+}
+
+.items-list .fav-holder .fav {
+	position: absolute;
+	top: 50%;
+	left: 47%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	 margin-top:-14px;/*Kady Fix */
+}
+
+.items-list .fav-holder i {
+	display: block;
+	margin: 0 0 8px;
+	/* line-height: 52px;
+	font-size: 52px; *//*Hala Commenting this as I'm makign the icon with tag i*/
+}
+
+.items-list .holder {
+	border-top: 1px solid #00b1e2;
+	padding: 0 0 0 32px;
+}
+
+.item-info {
+	padding: 14px 0;
+	font: 20px/25px "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+.item-info + .item-info {
+	border-top: 1px solid rgba(0, 177, 226, .3);
+}
+
+.item-info .icon-special,
+.item-info .icon-touch,
+.item-info .icon-location,
+.item-info .icon-time,
+.item-info .icon-box {
+	float: left;
+	margin: 0 0 0 -40px;
+	line-height: 31px;
+	font-size: 25px;
+	color: #00b1e2;
+}
+
+.item-info .icon-box {
+	font-size: 28px;
+}
+
+.item-info .title {
+	display: block;
+	font-weight: normal;
+	color: #00b1e2;
+}
+
+.item-info p {
+	margin: 0;
+}
+
+.item-info a[href^="tel:"] {
+	text-decoration: none;
+	color: #fff;
+}
+
+.item-info a[href^="mailto:"] {
+	text-decoration: none;
+	color: #fff;
+}
+
+.item-info a[href^="mailto:"]:hover {
+	color: #00b1e2;
+}
+
+.item-info .txt {
+	padding: 5px 0 14px;
+	line-height: 1.45;
+	font-size: 21px;
+	font-weight: 300;
+}
+
+.item-info .item-fav {
+	margin: -3px 0 12px;
+}
+
+/* .item-info .item-fav .title {
+	margin: 0 0 4px;
+	line-height: 24px;
+	font-size: 21px;
+	font-weight: bold;
+	color: #fff;
+} *//*Hala: Commented this so that the rating title over pages will have the blue color and normal font*/
+
+.item-info .item-fav .stars {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.item-info .item-fav .stars .icon-star {
+	margin: 0 0 0 1px;
+	line-height: 30px;
+	font-size: 29px;
+}
+
+.item-info .item-fav .stars .icon-star + .icon-star {
+	margin-left: 9px;
+}
+
+.item-info .item-fav .facebook {
+	position: relative;
+	float: right;
+	margin: 11px 9px 0 0;
+	border-radius: 50%;
+	overflow: hidden;
+	width: 61px;
+	height: 61px;
+	vertical-align: top;
+	background: #069;
+}
+
+.item-info .item-fav .facebook:before {
+	content: "\e904";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	line-height: 61px;
+	font-size: 35px;
+	text-align: center;
+}
+
+.item-info .item-fav .facebook:hover {
+	background: #08c;
+}
+
+.item-info .item-fav .facebook span {
+	display: block !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	width: 61px;
+	height: 61px;
+	background: none !important;
+}
+
+.item-info .special {
+	font: 21px/27px "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+.item-info .special .icon-special {
+	margin: 5px 0 0 -36px;
+	background: url("../images/sprite.png") no-repeat;
+	width: 150px;
+	height: 50px;
+	background-position: -92px 0;
+	width: 22px;
+	height: 22px;
+}
+
+/* events list */
+
+.events-list {
+	margin: 0 0 20px;
+	padding: 0 20px;
+}
+
+.events-list li {
+	border-bottom: 1px solid rgba(0, 177, 226, .3);
+}
+
+.events-list .area:hover .titles-area {
+	background: rgba(0, 0, 0, .65);
+}
+
+.events-list .heading {
+	position: relative;
+	margin: 0 -20px;
+}
+
+.events-list .titles-area {
+	display: block;
+	position: relative;
+	overflow: hidden;
+	padding: 22px 17px 22px 57px;
+	text-decoration: none;
+	color: #fcfeff;
+}
+
+.events-list .titles-area .icon {
+	position: absolute;
+	top: 31px;
+	left: 22px;
+	font-size: 23px;
+	line-height: 34px;
+	color: #00b1e2;
+}
+
+.events-list .titles-area h2 {
+	margin: 0;
+	font: 100 45px/44px "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+.events-list .titles-area .description {
+	font: 25px/30px "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+.events-list .titles-area .description span {
+	font-family: "Helvetica", "Arial", sans-serif;
+}
+
+/* offers list */
+
+.offers-list {
+	margin: 0 0 20px;
+	padding: 0 20px;
+}
+
+.offers-list li {
+	border-bottom: 1px solid rgba(0, 177, 226, .3);
+}
+
+.offers-list .area:hover .titles-area {
+	background: rgba(0, 0, 0, .65);
+}
+
+.offers-list .heading {
+	position: relative;
+	margin: 0 -20px;
+}
+
+.offers-list .titles-area {
+	display: block;
+	position: relative;
+	overflow: hidden;
+	padding: 22px 17px 22px 57px;
+	text-decoration: none;
+	color: #fcfeff;
+}
+
+.offers-list .titles-area .icon {
+	position: absolute;
+	top: 31px;
+	left: 22px;
+	font-size: 23px;
+	line-height: 34px;
+	color: #00b1e2;
+}
+
+.offers-list .titles-area h2 {
+	margin: 0;
+	font: 100 45px/44px "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+.offers-list .titles-area .description {
+	font: 25px/30px "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+.offers-list .titles-area .description span {
+	font-family: "Helvetica", "Arial", sans-serif;
+}
+
+#wrapper.dsf-page {
+	background: #333;
+}
+
+#wrapper.dsf-page .bg-main {
+	display: none;
+}
+
+#wrapper.dsf-page #header {
+	left: 0;
+	right: 0;
+	border: 0;
+	padding: 34px 22px 0;
+	height: 77px;
+}
+
+#wrapper.dsf-page #header h1 {
+	margin-top: -4px;
+}
+
+#wrapper.dsf-page .link-nav {
+	color: #fff;
+}
+
+#wrapper.dsf-page .link-nav:hover {
+	color: #0cf;
+}
+
+#wrapper.dsf-page .link-search {
+	color: #fff;
+}
+
+#wrapper.dsf-page .link-search:hover {
+	color: #0cf;
+}
+
+#wrapper.dsf-page #content {
+	top: 77px;
+}
+
+/* offers gallery */
+
+.offer-gallery {
+	position: relative;
+}
+
+.offer-gallery .mask {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+}
+
+.offer-gallery .slideset {
+	width: 99999px;
+	float: left;
+}
+
+.offer-gallery .slide {
+	position: relative;
+	float: left;
+	width: 600px;
+	text-align: center;
+/* 	background-color: #ffffff; Add to avoid small images background empty in Carousel - Nashwa */
+	
+}
+
+.offer-gallery .slide.active {
+	z-index: 1;
+}
+
+.offer-gallery .slide img {
+	vertical-align: top;
+}
+
+.offer-gallery .slide .off {
+	position: absolute;
+	top: 44px;
+	left: 0;
+	padding: 16px 33px 16px 23px;
+	line-height: 23px;
+	font-size: 25px;
+	text-align: left;
+	color: #fff;
+	background: rgba(0, 102, 255, .8);
+	max-width: 300px;
+}
+
+.offer-gallery .pagination {
+	position: absolute;
+	z-index: 2;
+	right: 0;
+	bottom: 14px;
+	left: 0;
+	height: 8px;
+	text-align: center;
+}
+
+.offer-gallery .pagination li {
+	display: inline-block;
+	margin: 0 6px;
+	vertical-align: top;
+}
+
+.offer-gallery .pagination a {
+	display: block;
+	border-radius: 50%;
+	overflow: hidden;
+	width: 8px;
+	height: 8px;
+	text-indent: 101%;
+	background: #fcfeff;
+}
+
+.offer-gallery .pagination a:hover {
+	background: #1a69e0;
+}
+
+.offer-gallery .pagination li.active a {
+	background: #1a69e0;
+}
+
+/* categories carousel */
+
+.categories-carousel {
+	position: relative;
+	margin: 0 -1px 15px;
+	padding: 2px 0;
+}
+
+.categories-carousel .mask {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+}
+
+.categories-carousel .slideset {
+	width: 99999px;
+	float: left;
+}
+
+.categories-carousel .slide {
+	position: relative;
+	padding: 0 1px;
+	width: 100px;
+	float: left;
+}
+
+.categories-carousel .slide a {
+	display: block;
+	height: 100px;
+	text-decoration: none;
+	color: #030303;
+	background: #fff;
+}
+
+.categories-carousel .slide a:hover {
+	color: #00b1e2;
+}
+
+.categories-carousel .slide img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	max-width: 90px;
+	height: auto;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.categories-carousel .slide .title {
+	position: absolute;
+	bottom: 5px;
+	left: 2px;
+	right: 2px;
+	border-radius: 8px;
+	padding: 0 10px;
+	line-height: 18px;
+	font-size: 13px;
+	font-weight: normal;
+	text-align: center;
+	background: #fff;
+	box-shadow: 0 0 3px #fff;
+}
+
+.buttons-row {
+	text-align: center;
+}
+
+.btn {
+	display: inline-block;
+	margin: 0 5px 15px;
+	border: 0;
+	border-radius: 5px;
+	min-width: 156px;
+	padding: 9px 10px;
+	line-height: 27px;
+	font-size: 21px;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	background: #06f;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, .5);
+}
+
+.btn:hover {
+	background: #3385ff;
+}
+
+/* personalize form */
+
+.personalize-form {
+	margin: 0;
+}
+
+.personalize-form .form-row {
+	margin: 0 0 25px;
+}
+
+.personalize-form .form-row.buttons {
+	padding-top: 5px;
+}
+
+.personalize-form label,
+.personalize-form .label {
+	display: block;
+	margin: 0 0 7px;
+	line-height: 25px;
+	font-size: 20px;
+	color: #fff;
+}
+
+.personalize-form input[type="date"] {
+	max-width: 243px;
+}
+
+.personalize-form .radio {
+	display: inline-block;
+	margin: 0 10px 0 0;
+	vertical-align: top;
+}
+
+.personalize-form input[type="checkbox"] + label,
+.personalize-form .jcf-checkbox + label,
+.personalize-form input[type="radio"] + label,
+.personalize-form .jcf-radio + label {
+	display: inline-block;
+	margin: 0;
+	font-weight: 300;
+	vertical-align: middle;
+}
+
+.personalize-form .jcf-select-countries, .enter-form .jcf-select-countries{
+	float: left;
+	margin: 0 1px 0 0;
+	width: 120px;
+	min-width: 0;
+}
+
+.personalize-form .jcf-select-countries .jcf-select-text , .enter-form .jcf-select-countries .jcf-select-text{
+	margin: 0 26px 0 10px;
+}
+
+.personalize-form .jcf-select-countries .jcf-select-text img , .enter-form .jcf-select-countries .jcf-select-text img {
+	float: left;
+	margin: 7px 14px 0 0;
+	width: 24px;
+	height: auto;
+}
+
+.personalize-form .jcf-select-countries .jcf-select-opener ,.enter-form .jcf-select-countries .jcf-select-opener{
+	width: 36px;
+}
+
+.personalize-form .countries-number ,.enter-form .countries-number{
+	overflow: hidden;
+}
+
+/* contact form */
+
+.contact-form {
+	margin: 0;
+}
+
+.contact-form .form-row {
+	margin: 0 0 25px;
+}
+
+.contact-form .form-row.buttons {
+	margin-top: -13px;
+}
+
+.contact-form label,
+.contact-form .label {
+	display: block;
+	margin: 0 0 7px;
+	line-height: 26px;
+	font-size: 22px;
+	color: #fff;
+}
+
+.contact-form input[type="date"] {
+	max-width: 243px;
+}
+
+.contact-form .radio {
+	display: inline-block;
+	margin: 0 10px 0 0;
+	vertical-align: top;
+}
+
+.contact-form input[type="checkbox"] + label,
+.contact-form .jcf-checkbox + label,
+.contact-form input[type="radio"] + label,
+.contact-form .jcf-radio + label {
+	display: inline-block;
+	margin: 0;
+	font-weight: 300;
+	vertical-align: middle;
+}
+
+.contact-form .jcf-select-countries {
+	float: left;
+	margin: 0 1px 0 0;
+	width: 120px;
+	min-width: 0;
+}
+
+.contact-form .jcf-select-countries .jcf-select-text {
+	margin: 0 36px 0 10px;
+}
+
+.contact-form .jcf-select-countries .jcf-select-text img {
+	float: left;
+	margin: 7px 14px 0 0;
+}
+
+.contact-form .jcf-select-countries .jcf-select-opener {
+	width: 36px;
+}
+
+.contact-form .countries-number {
+	overflow: hidden;
+}
+
+.jcf-select-drop.jcf-select-countries .jcf-list .jcf-option {
+	padding: 5px 9px;
+}
+
+.jcf-select-drop.jcf-select-countries .jcf-list .jcf-option img {
+	float: left;
+	margin: 1px 14px 0 0;
+}
+
+/* search form */
+
+.search-form {
+	margin-top: -22px;
+}
+
+.search-form .search-heading {
+	position: absolute;
+	top: 0;
+	left: 20px;
+	right: 20px;
+}
+
+.search-form .search-content {
+	position: absolute;
+	/* top: 220px;
+	Cristian modified - too much space between Filter Mall and the search area */
+	top: 140px;
+	left: 20px;
+	right: 20px;
+	bottom: 25px;
+	/* overflow: auto; */
+}
+
+.search-form h1 {
+	margin: 0 50px 13px 0;
+	/* font: 100 50px/50px "Roboto", "Helvetica", "Arial", sans-serif; 
+	Cristian commented, as title text was too big, spanning on three lines */
+	font: 100 25px/25px "Roboto", "Helvetica", "Arial", sans-serif;
+	color: #fdfdfe;
+}
+
+.search-form .form-row {
+	position: relative;
+	margin: 0;
+}
+
+.search-form .jcf-select {
+	/* height: 41px; */
+	height: 35px;
+	
+}
+
+.search-form .jcf-select .jcf-select-text {
+	/* font: 20px/41px "Roboto", "Helvetica", "Arial", sans-serif; */
+	font: 20px/35px "Roboto", "Helvetica", "Arial", sans-serif; 
+	margin: 0 46px 0 14px;
+	top: 0px;
+    position: absolute;
+}
+
+.search-form textarea {
+	margin: 0 0 132px;
+	padding: 19px 17px;
+	height: 178px;
+	min-height: 178px;
+	/* font: 100 45px/43px "Roboto", "Helvetica", "Arial", sans-serif;
+	cristian reduced the size of the font in the search form */
+	font: 100 25px/25px "Roboto", "Helvetica", "Arial", sans-serif;
+	background: rgba(255, 255, 255, .9);
+}
+
+.search-form textarea::-moz-placeholder {
+	color: #ccc;
+	opacity: 1;
+}
+
+.search-form textarea:-ms-input-placeholder {
+	color: #ccc;
+}
+
+.search-form textarea::-webkit-input-placeholder {
+	color: #ccc;
+}
+
+.search-form textarea:-moz-placeholder {
+	color: #ccc;
+}
+
+.search-form textarea.placeholder {
+	color: #ccc;
+}
+
+.search-form .autocomplete {
+	position: relative;
+	margin: -184px 0 13px;
+	/* min-height: 53px;
+	Cristian modified it to smaller font */
+	min-height: 25px;
+	
+}
+
+.search-form .autocomplete ul {
+/* 	border: 1px solid #ccc; *//*Hala:disable this till we fix the auto complete  */
+	width: 100%;
+	font: 20px/24px "Roboto", "Helvetica", "Arial", sans-serif;
+	background: #fff;
+}
+
+.search-form .autocomplete ul li {
+	border-top: 1px solid #ccc;
+}
+	
+.search-form .autocomplete ul li:first-child {
+	border-top: 0;
+}
+
+.search-form .autocomplete ul a {
+	display: block;
+	padding: 9px 14px;
+	text-decoration: none;
+	color: #666;
+}
+
+.search-form .autocomplete ul a:hover {
+	background: #39f;
+	color: #fff;
+}
+
+.jcf-select-drop.jcf-select-filter .jcf-list {
+	line-height: 30px;
+	font-size: 20px;
+}
+
+@media (min--moz-device-pixel-ratio: 1.3), (-webkit-min-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
+	.logo {
+		background-image: url("../images/logo-bg-2x.png");
+		background-size: 310px 193px;
+	}
+
+	#nav a i {
+		background-image: url("../images/sprite-2x.png");
+		/* background-size: 150px 50px; */
+	}
+
+	.item-info .special .icon-special {
+		background-image: url("../images/sprite-2x.png");
+		background-size: 150px 50px; 
+	}
+}
+
+@media only screen and (min-width: 1025px) {
+	a[href^=tel],
+	a[href^=skype],
+	a[href^=sms] {
+		cursor: default;
+		pointer-events: none;
+	}
+}
+
+.enter-form .jcf-select-countries {
+	float: left;
+	margin: 0 1px 0 0;
+	width: 120px;
+	min-width: 0;
+	height:40px;
+	border-radius: 4px;
+}
+.enter-form .countries-number {
+/* 	overflow: hidden; */ /*Hala: remove to fix scrolling*/
+}
+.enter-form .jcf-select-countries .jcf-select-text {
+	margin: 0 36px 0 10px;
+}
+
+.enter-form  .jcf-select-countries .jcf-select-text img {
+	float: left;
+	margin: 10px 14px 0 0;
+}
+
+.enter-form .jcf-select-countries .jcf-select-opener {
+	width: 36px;
+}
+.inActiveRatingStars{
+	 background-image: url(../images/star_white.png);
+  	 background-size:100% 100%;	
+  	 width: 30px;
+     height: 30px;	
+     display: block;
+  	  float: left; 
+  	 margin: 0px 5px 5px 0px; 
+}
+.activeRatingStars
+{
+	 background-image: url(../images/star-active.png);
+  	 background-size:100% 100%;	
+  	 width: 30px;
+     height: 30px;	
+     display: block;
+  	  float: left;  
+  	 margin: 0px 5px 5px 0px;
+}
+.socialTweetsIcon
+{
+	 background-image: url(../images/DSF-social-Tweets.png);
+  	background-size: 100% 100%;
+	width: 20%;
+	height: 52px;
+	display: block;
+	float: left;
+	margin-top: 2%;
+	margin-left:1%;
+	display:block;
+}
+.sideMenuIcons{
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    width:20px!important;
+    height:20px!important;
+}
+.sideMenuIconsTop
+{
+	 background-repeat: no-repeat;
+    background-size:100% 100%;
+    width:30px!important;
+    height:30px!important;
+}
+.sideMenuIconsTwitter
+{
+	 background-repeat: no-repeat;
+    background-size:100% 100%;
+    width:20px!important;
+    height:15px!important;
+    margin: 4px 0px 0px -38px!important;
+}
+.sideMenuHomeIconImg{
+	background-image: url(../images/sidemenu/home_icon.png)!important;
+}
+.sideMenuEventsIconImg{
+	background-image: url(../images/sidemenu/events_icon.png)!important;
+}
+.childhoodHistoryIconImg{
+	background-image: url(../images/sidemenu/baby-silhouette-hi.png)!important;
+}
+.FoodDietIconImg{
+	background-image: url(../images/sidemenu/apple.png)!important;
+}
+.surgicalProcedureIconImg{
+	background-image: url(../images/sidemenu/General_Surgery-512.png)!important;
+}
+.testsIconImg{
+	background-image: url(../images/sidemenu/testimonial_blue.png)!important;
+}
+.sideMenuContactUsIconImg{
+	background-image: url(../images/sidemenu/contactus.png)!important;
+}
+.sideMenuPersonalizeIconImg{
+	background-image: url(../images/sidemenu/profile_icon.png)!important;
+}
+.sideMenuCurrentMedicationIconImg{
+	background-image: url(../images/sidemenu/pills_blue.png)!important;
+}
+.sideMenuTermsAndConditionsImg{
+	background-image: url(../images/sidemenu/tAndC1.png)!important;
+}
+.sideMenuheartIconImg{
+	background-image: url(../images/sidemenu/heart-icon.png)!important;
+}
+.sideMenuAllergieIconImg{
+	background-image: url(../images/sidemenu/allergie.png)!important;
+}
+.sideMenuAnaesthesiaIconImg{
+	background-image: url(../images/sidemenu/anaesthesia.png)!important;
+}
+.sideMenuTraumaIconImg
+{
+	background-image: url(../images/sidemenu/trauma.png)!important;
+}
+.contactusBkgd {
+    background-image: url(../images/backgrounds/contact-us.jpg)!important;
+    background-size:100% 100%;	
+}
+.userprofileBkgd ,.offersBackground,.homepageBackground{
+    background-image: url(../images/backgrounds/offers-background.jpg)!important;
+    background-size:100% 100%;	
+}
+.searchBkgrd {
+    background-image: url(../images/backgrounds/search-results-page.jpg)!important;
+     background-size:100% 100%;
+}
+.searchMainBackground {
+    background-image: url(../images/backgrounds/main-search.jpg)!important;
+     background-size:100% 100%;
+}
+.loginBkgrd {
+    background-image: url(../images/backgrounds/login.jpg)!important;
+     background-size:100% 100%;
+    background-repeat: no-repeat;
+}
+.inActiveMarkFavorite
+{
+	 background-image: url(../images/start_white.png)!important;
+     background-size:100% 100%;
+    background-repeat: no-repeat;	
+         background-position: center; /*Add to centered the Text under Favourite icon*/
+    
+    width:60px;
+    height: 60px;
+    padding-top: 45%;
+}
+.activeMarkFavorite
+{
+	 background-image: url(../images/start_yellow.png)!important;
+     background-size:100% 100%;
+   	 background-repeat: no-repeat;	
+   	 background-position: center; /*Add to centered the Text under Favourite icon*/
+   	 width: 60px;
+    height: 60px;
+    padding-top: 45%;
+}
+.home-carousel {
+ 	/*height: 335px;*/ /*Add to show the logos part in the Carousel new images - Nashwa */
+	  min-height: 300px; /*Hala: Thisis the best for Iphone and Android  */
+}
+.homepageButtons
+{
+	margin:0 0px 0px;
+	width:60%;
+}
+/*buttons alignment fix by Nashwa*/
+/* Override Sweet alert */
+.sweet-alert button.confirm{
+	background-color: #06f !important;
+	box-shadow: rgba(0, 102, 255, 0.8) 0px 0px 2px, rgba(0, 0, 0, 0.0470588) 0px 0px 0px 1px inset !important;
+}
+.sa-confirm-button-container,
+.sweet-alert button.cancel{
+
+	width: 35% !important;
+}
+.personalize-form .checkboxwidth
+{
+	width:45%;
+}
+.personalize-form .checkboxLaberWidth
+{
+	width:35%;
+}
+
+/*minimize Category label*/
+.userprofile_categories label{
+	font-size: 18px;
+	width: 80%;
+}
+.loginBkgrd #content {
+		top: 5%;
+	}
+.emptySearchResult
+{
+	padding-top: 20px;
+    border-bottom-color: transparent!important;
+}
+.loginCheckBoxIsAdibCustomer{
+	    padding-top: 5%;
+}
+
+.catIconsConfigs {
+ 	background-repeat: no-repeat;
+     background-size:100% 100%;
+   width: 25px!important;
+    height: 25px!important;
+ 	display: inline;
+ 	position: absolute;
+	top:5%;
+ 	margin-top:2%;
+ }
+
+/*categories Icons*/
+.cat1{
+	background-image: url("../images/categories_icons/01 hypermarket.png")!important;
+}
+.cat2{
+	background-image: url("../images/categories_icons/02 automotive and boats.png")!important;
+}
+.cat3{
+	background-image: url("../images/categories_icons/03 Health and Beauty Care.png")!important;
+}
+.cat4{
+	background-image: url("../images/categories_icons/04 Fashion.png")!important;
+}
+.cat5
+{
+	background-image: url("../images/categories_icons/05 Postal.png")!important;
+}
+.cat6
+{
+	background-image: url("../images/categories_icons/06 Hotels.png")!important;
+}
+.cat7
+{
+	background-image: url("../images/categories_icons/07 Gold.png")!important;
+}
+.cat8
+{
+	background-image: url("../images/categories_icons/08 Food.png")!important;
+}
+.cat9
+{
+	background-image: url("../images/categories_icons/09 Home Furnishing.png")!important;
+
+}
+.cat10
+{
+	background-image: url("../images/categories_icons/10 Finance.png")!important;
+}
+.cat11
+{
+	background-image: url("../images/categories_icons/11 Entertainment.png")!important;
+}
+.cat12
+{
+	background-image: url("../images/categories_icons/12 services.png")!important;
+}
+.cat13
+{
+	background-image: url("../images/categories_icons/13 Sports.png")!important;
+}
+.cat14
+{
+	background-image: url("../images/categories_icons/Specialty Stores.png")!important;
+}
+.cat15
+{
+	background-image: url("../images/categories_icons/Electronics.png")!important;
+}
+.catdefault
+{
+	background-image: url("../images/shopping-cart.png")!important;
+	background-repeat: no-repeat;
+    background-size:100% 100%;
+    width: 30px!important;
+    height: 30px!important;
+	display: inline;
+	position: absolute;
+	left:20px;
+	top:10%;
+	margin-top:2%;
+}
+.favoritesCounter
+{	
+	margin:0px 0 0px;
+	color:white;
+	background-color:#14a8de;
+	border-radius:30px;
+	text-align:center;
+	padding: 4px 5px;
+	margin-left: 3px;
+	
+}
+.underlineAndWhiteContent
+{
+	border-bottom-style: solid;
+    color: white;
+}
+.termsAndConditionsPage
+{
+    padding-left: 10px;
+    padding-top: 30px;
+    text-align: center;
+    padding-right: 10px;
+}
+.locationPin
+{
+    background-image: url(../images/single-pin.png);
+    background-size: 100% 100%;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+}
+/* Cristian added it to remove the title selection of Mall in the search drop down list*/
+select > .placeholder {
+  display: none;
+}
+.searchfilterColor
+{
+	color:grey;
+}
+
+.offerListAddmore
+{
+	width:70%;
+	margin:0 15% 15%;
+	border-radius:5%;
+	
+}
+.tweetText
+{
+	display:block;
+	float:left;
+	width:74%;
+	margin-left:3%;
+	margin-top:1%;
+	margin-bottom:12%;
+}
+.tweetMainLi{
+	border-bottom:none!important; 
+	display:block;
+	min-height:60px; 
+	margin-bottom:10%;
+}
+.tweetBlockClass
+{
+	style="display:block;"
+}
+/*Nashwa's fix for higlighted menu  */
+.link-nav:focus {
+	outline: 0; /* Defect 2983 - Remove menu border after registration*/
+}
+/*  Nashwa's fix for carsoul resizing*/
+/* ----------- BO Iphone 6 ----------- */
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+  .home-carousel {
+	  min-height: 353px; 
+  }
+}
+/* -----------  EO Iphone 6 ----------- */
+/* ----------- BO Galaxy S4 ----------- */
+/* Portrait */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+  .home-carousel {
+	  min-height: 337px; 
+  }
+}
+/* ----------- EO Galaxy S4 ----------- */
+/* ----------- BO Galaxy S5 ----------- */
+/* Portrait */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+  .home-carousel {
+	  min-height: 337px; 
+  }
+}
+
+.loginButtonClassPadding{
+	    padding-top: 5%;
+}

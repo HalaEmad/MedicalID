@@ -1,0 +1,567 @@
+
+body {
+    font-family:
+}
+
+.main-arabic
+{
+	direction:rtl;
+}
+.menuright-arabic{
+	right:0 !important;
+} 
+.hide-drawer .mdl-layout__drawer-button {
+    display: none !important;
+}
+
+.buttomCatClass {
+    height: 75px;
+    width: 75px;
+    padding: 50px;
+}
+
+.appMainHeader {
+   width: 94%;
+   color: white;
+   text-align: center;
+   color:white;
+}
+
+.userprofile .pageHeader,
+.contactus .pageHeader,
+.login .pageHeader {
+    text-align: center;
+    font-weight: 300;
+    color: #ffffff !important;
+}
+
+.userprofile .pageHeaderParentSpace,
+.contactus .pageHeaderParentSpace,
+.login .pageHeaderParentSpace,
+.offerDetailsPage .pageHeaderParentSpace {
+    padding-bottom: 10px;
+}
+
+.fields-display {
+    display: inline-block;
+    width: 100%;
+}
+
+.userprofileBkgd {
+    background-image: url(../images/dark_withoutfooter_background.jpg)!important;
+    background-size:100% 100%;	
+}
+
+.searchBkgrd {
+    background-image: url(../images/backgrounds/offer-search-page.jpg)!important;
+     background-size:100% 100%;
+}
+.searchMainBackground {
+    background-image: url(../images/backgrounds/main-search.jpg)!important;
+     background-size:100% 100%;
+}
+.loginBkgrd {
+    background-image: url(../images/backgrounds/data-capture-page.jpg)!important;
+     background-size:100% 100%;
+    background-repeat: no-repeat;
+}
+
+.userprofile .TextBoxRoundBorders,
+.contactus .TextBoxRoundBorders,
+.login .TextBoxRoundBorders {
+    border-radius: 5px;
+    background-color: while;
+}
+
+.userprofile .userprofileradiobutton1 {
+    padding-right: 30px;
+}
+
+.userprofile .userprofileradiobutton2 {
+    padding-right: 34px;
+}
+
+.userprofile .submitbutton,
+.contactus .submitbutton,
+.login .submitbutton,
+.searchPage .submitbutton,
+.home .submitbutton,
+.outlitList .submitbutton ,
+.events .submitbutton ,
+.offerDetailsPage .submitbutton{
+    background-color: blue;
+    border-radius: 5px;
+}
+
+.userprofile .adibCustomerSwitch {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.userprofile .listBox,
+.contactus .listBox,
+.login .listBox,
+.searchPage .listBox {
+    padding-bottom: 20px;
+    background-color: white;
+    height: 20px;
+    color: lightgrey;
+    border-radius: 5px;
+}
+
+.userprofile .userprofileradiobutton2 {
+    padding-right: 34px;
+}
+
+.userprofile .submitbutton,
+.contactus .submitbutton,
+.login .submitbutton,
+.searchPage .submitbutton,
+.home .submitbutton {
+    background-color: #0066FD;
+    border-radius: 5px;
+    text-transform: initial;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.userprofile .adibCustomerSwitch {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.userprofile .listBox,
+.contactus .listBox,
+.login .listBox,
+.searchPage .listBox {
+    padding-bottom: 20px;
+    background-color: white;
+    height: 20px;
+    color: #000000;
+    border-radius: 5px;
+}
+
+.userprofile .adibList {
+    padding-top: 20px;
+}
+
+.userprofile .dobclass,
+.home .dobclass {
+    display: inline-block;
+    width: 20%;
+}
+
+.userprofile .transparentBg {
+    background-color: transparent;
+}
+
+.userprofile .labesTopPadding {
+    padding-top: 10px;
+}
+
+.userprofile .listBoxwidth,
+.searchPage .listBoxwidth {
+    height: 40px;
+}
+
+.searchPage .messageBoxHeight,
+.contactus .messageBoxHeight {
+    height: 54px;
+}
+
+.searchPage .buttonbgColor {
+    background-color: blue;
+}
+
+.searchPage .paddingbuttom ,.events .paddingbuttom ,.showOffers .paddingbuttom ,.adiboffers .paddingbuttom{
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.searchPage .searchHeaderStyling ,
+.events .searchHeaderStyling,
+.adiboffers .searchHeaderStyling{
+    font-size: 30px;
+    font-weight: large;
+    color: white;
+}
+
+.contactus .fieldTextAlignment {
+    padding-left: 15px;
+}
+
+.contactus .marginbottom,
+.login .marginbottom {
+    margin-bottom: 20px;
+}
+
+.contactus .textAriaAlignment
+{
+    padding-left: 15px;
+    border-radius: 5px;
+    border-color: lightgrey;
+    width: 96%;
+    padding-bottom:10%;
+}
+.searchPage .textAriaAlignment,
+.events .textAriaAlignment,
+.adiboffers .textAriaAlignment {
+    padding-left: 10px;
+    border-radius: 5px;
+    border-color: lightgrey;
+    width: 96%;
+    font-size: 25px;
+}
+
+.sideMenuHomeImage {
+    background-image: url(../images/home_icon.png);
+    background-repeat: no-repeat;
+}
+
+.loginBkgrd header,
+.userprofileBkgd header,
+.searchBkgrd header ,
+.searchMainBackground header {
+    background-color: rgba(255, 255, 255, 0.0);
+}
+
+.headerBigFontSize {
+    font-size: 36px;
+    font-weight: 100;
+    color: #FFFFFF;
+    line-height: initial;
+    font-family: "Roboto";
+}
+
+
+/*-------------------------------- Home*/
+
+.home_slidesCarousel{
+    display: block;
+    height: 250px;
+}
+
+.home_slidesCarousel ul{
+    height: 250px;
+    text-align: center;
+}
+
+.home_slidesCarouselItem{
+
+}
+
+.home_slidesCarouselItem img{
+    max-height:250px; width:auto;
+}
+
+.home_slidesCarouselIndecators{
+    text-align: center;
+    position: relative;
+    bottom: 30px;
+    width: 100%;
+}
+
+.home_slidesCarouselIndecators .ng-scope{
+    color: white;
+    font-size: 1.5em;
+}
+
+.home_slidesCarouselIndecators .active{
+    color: #1b6ae1 !important;
+}
+
+.home_carouselImgClass{
+    width: 28.6%;
+    background: white;
+    padding: 2%;
+    display: inline-block;
+    margin: 1px;
+}
+
+.home_carouselImgClass img{
+    height: 50px;
+}
+
+.home_carouselImgClass h4{
+    text-transform: none;
+}
+
+.home_viewOffersEventsContainer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.home_viewOffersEventsContainerBtn {
+    display: inline-block;
+    width: 45%;
+    margin: .5%;
+    float: none;
+}
+
+.home_viewOffersEventsContainerBtn a {
+    color: white;
+    text-transform: none;
+    background-color: #1b6ae1 !important;
+    padding: .5% !important;
+}
+
+.home_offerDetails{
+    position: absolute;
+    background: #1b6ae1;
+    color: white;
+    top: 1.5em;
+    left: 0;
+    padding: 0.3em;
+    font-size: 2em;
+    width: 30%;
+    line-height: 1em;
+}
+
+.home_setOfCategoriesContainer{
+    margin-right: -2px;
+    margin-left: -2px;
+}
+
+/*-------------------------------- Home*/
+
+/*-------------------------------- Lucy*/
+
+.lucy {
+    color: White;
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+.blue {
+    color: blue;
+    font-size: 24px;
+}
+
+.img {
+    width: 28px;
+    height: 28px;
+}
+
+.ex1 {
+    margin-right: 100px;
+    margin-left: 30px;
+}
+
+.ex2 {
+    margin-top: 20px;
+    margin-right: 100px;
+    margin-left: 10px;
+}
+
+.smalwhite {
+    color: white;
+    font-size: 18px;
+}
+
+.rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+}
+
+.rating > span {
+    display: inline-block;
+    position: relative;
+    width: 1.1em;
+}
+
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+    content: "\2605";
+    position: absolute;
+}
+/*-------------------------------- Lucy*/
+
+.carouselImgClass {
+    height: 50px;
+    width: 32.33%;
+}
+
+.viewOffersEventsContainer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.viewOffersEventsContainerBtn {
+    display: inline-block;
+    width: 45%;
+}
+
+.viewOffersEventsContainerBtn a {
+    color: white;
+}
+.sidePanelBackgroundColor
+{
+	 background-color:#333333;
+}
+
+.backgroundImageTest{
+	background-image: url(../images/shopping-cart.png);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    width:18px;
+    height:18px;
+    float:left;
+}
+.offerDivShortDescriptio
+{
+	font-size: large;
+	/* display:inline-block; */
+	padding-left: 5px;
+}
+.adiboffers .offerDivShortDescriptio ,.showOffers .offerDivShortDescriptio ,.search .offerDivShortDescriptio ,.events .offerDivShortDescriptio
+{
+	font-size: large;
+	/* display:inline-block; */
+	padding-left: 24px;
+}
+.offerDivDescription{
+	border-bottom-style: solid;
+    border-bottom-width: thin;
+    border-bottom-color: #114F6a;
+    padding-bottom: 10px;
+    margin: 0 0px 10px;
+    color:white;
+}
+.parentDivResult{
+	margin: 10px 0 10px 0;
+	color:white;
+}
+.footerClass
+{
+	background-color: blue;
+    margin-bottom: 20px;
+    width: 90%;
+    margin-left: 15px;
+}
+.sideMenuIcons{
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    width:20px;
+    height:20px;
+}
+.sideMenuHomeIconImg{
+	background-image: url(../images/sidemenu/home_icon.png);
+}
+.sideMenuFavIconImg{
+	background-image: url(../images/sidemenu/favorite_icon.png);
+}
+.sideMenuShowOfferIconImg{
+	background-image: url(../images/sidemenu/offers_icon.png);
+}
+.sideMenuEventsIconImg{
+	background-image: url(../images/sidemenu/events_icon.png);
+}
+.sideMenuAdibOfferIconImg{
+	background-image: url(../images/sidemenu/adib_offer_icon.png);
+}
+.sideMenuContactUsIconImg{
+	background-image: url(../images/sidemenu/contactus.png);
+}
+.sideMenuPersonalizeIconImg{
+	background-image: url(../images/sidemenu/profile_icon.png);
+}
+.sideMenuSocialIconImg{
+	background-image: url(../images/sidemenu/twitter.png);
+}
+.separator{
+	margin-top: 20px;
+}
+.sideMenuBKColor{
+background-color: #333333;
+}
+
+.contactus .mdl-button:hover{
+	background-color:#0066FD;
+}
+.offerDetailsPage .divHeaderColor
+{
+	color:#00b1e2;
+	margin-left:10px;
+	font-size: large;
+	display:inline-block;
+}
+.offerDetailsPage .getInTouchBkgrdIcon
+{
+	background-image: url(../images/contactusDetails.png);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    width:18px;
+    height:18px;
+    display:inline-block;
+	
+}
+.offerDetailsPage .whereToFindUsBkgrdIcon
+{
+	background-image: url(../images/location.png);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    width:18px;
+    height:18px;
+    display:inline-block;
+	
+}
+.offerDetailsPage .timeBkgrdIcon
+{
+	background-image: url(../images/time.png);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    width:18px;
+    height:18px;
+    display:inline-block;
+	
+}
+.offerDetailsPage .furthurInfoBkgrdIcon
+{
+	background-image: url(../images/moreInfo.png);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    width:18px;
+    height:18px;
+    display:inline-block;
+	
+}
+.offerDetailsPage .adibSpecialofferBkgrdIcon
+{
+	
+	background-image: url(../images/sidemenu/adib_offer_icon.png);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    width:18px;
+    height:18px;
+    display:inline-block;
+	
+}
+.offerDetailsPage .headerclassespadding
+{
+	padding-left: 11px;
+    color: white;
+    display:inline-block;
+}
+.offerDetailsPage .offerDivDescriptionmain{
+	border-bottom-style: solid;
+    border-bottom-width: thin;
+    border-bottom-color: #10506e;
+    padding-bottom: 10px;
+    color:white;
+}
+.offerDetailsPage .moreAlignmentToValidate
+{
+	/* padding-left:10px; */
+}
+.offerDetailsPage .contentAlignmentClass
+{
+	padding-left:30px;
+}
+.offerDetailsPage .descriptionAlignment,.adiboffers .descriptionAlignment ,.showOffers .descriptionAlignment,.search .descriptionAlignment,.events .descriptionAlignment{
+	margin-left:25px;
+
+}
+.ShareData
+{
+	margin-left:30px; 
+}

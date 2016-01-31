@@ -1,0 +1,24 @@
+
+/* Stylesheet content from css/socialTwitter.css in folder common */
+.socialTwitter .img-circle {
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 0;
+    width: 50px;
+    height: 50px;
+}
+
+
+.socialTwitter .tweetText {
+	color: #fff;
+	font-size: large;
+}
+
+.socialTwitter input {
+	margin: 10px;
+	border-radius: 6px;
+	border-style: none;
+	height: 30px; 	
+	padding: 9px;
+	width: 80%;
+}

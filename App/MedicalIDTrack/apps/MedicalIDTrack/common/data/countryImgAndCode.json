@@ -1,0 +1,898 @@
+[	 {
+        "countryImg": "images/countryFlags/United Arab Emirates.png",
+        "CountryCode": "+971"
+    },
+    {
+        "countryImg": "images/countryFlags/Albania.png",
+        "CountryCode": "+355"
+    },
+    {
+        "countryImg": "images/countryFlags/Algeria.png",
+        "CountryCode": "+213"
+    },
+    {
+        "countryImg": "images/countryFlags/American Samoa.png",
+        "CountryCode": "+1-684"
+    },
+    {
+        "countryImg": "images/countryFlags/Andorra.png",
+        "CountryCode": "+376"
+    },
+    {
+        "countryImg": "images/countryFlags/Angola.png",
+        "CountryCode": "+244"
+    },
+    {
+        "countryImg": "images/countryFlags/Anguilla.png",
+        "CountryCode": "+1-264"
+    },
+    {
+        "countryImg": "images/countryFlags/Antarctica.png",
+        "CountryCode": "+672"
+    },
+    {
+        "countryImg": "images/countryFlags/Antigua & Barbuda.png",
+        "CountryCode": "+1-268"
+    },
+    {
+        "countryImg": "images/countryFlags/Argentina.png",
+        "CountryCode": "+54"
+    },
+    {
+        "countryImg": "images/countryFlags/Armenia.png",
+        "CountryCode": "+374"
+    },
+    {
+        "countryImg": "images/countryFlags/Aruba.png",
+        "CountryCode": " +297"
+    },
+    {
+        "countryImg": "images/countryFlags/Australia.png",
+        "CountryCode": " +61"
+    },
+    {
+        "countryImg": "images/countryFlags/Austria.png",
+        "CountryCode": " +43"
+    },
+    {
+        "countryImg": "images/countryFlags/Azerbaijan.png",
+        "CountryCode": " +994"
+    },
+    {
+        "countryImg": "images/countryFlags/Bahamas.png",
+        "CountryCode": "+1-242"
+    },
+    {
+        "countryImg": "images/countryFlags/Bahrain.png",
+        "CountryCode": " +973"
+    },
+    {
+        "countryImg": "images/countryFlags/Bangladesh.png",
+        "CountryCode": " +880"
+    },
+    {
+        "countryImg": "images/countryFlags/Barbados.png",
+        "CountryCode": " +1-246"
+    },
+    {
+        "countryImg": "images/countryFlags/Belarus.png",
+        "CountryCode": " +375"
+    },
+    {
+        "countryImg": "images/countryFlags/Belgium.png",
+        "CountryCode": " +32"
+    },
+    {
+        "countryImg": "images/countryFlags/Belize.png",
+        "CountryCode": "+501"
+    },
+    {
+        "countryImg": "images/countryFlags/Benin.png",
+        "CountryCode": " +229"
+    },
+    {
+        "countryImg": "images/countryFlags/Bermuda.png",
+        "CountryCode": " +1-441"
+    },
+    {
+        "countryImg": "images/countryFlags/Bhutan.png",
+        "CountryCode": "+975"
+    },
+    {
+        "countryImg": "images/countryFlags/Bolivia.png",
+        "CountryCode": "+591"
+    },
+    {
+        "countryImg": "images/countryFlags/Bosnia & Herzegovina.png",
+        "CountryCode": "+387"
+    },
+    {
+        "countryImg": "images/countryFlags/Botswana.png",
+        "CountryCode": "+267"
+    },
+    {
+        "countryImg": "images/countryFlags/Brazil.png",
+        "CountryCode": " +55"
+    },
+    {
+        "countryImg": "images/countryFlags/Brunei.png",
+        "CountryCode": " +673"
+    },
+    {
+        "countryImg": "images/countryFlags/Bulgaria.png",
+        "CountryCode": " +359"
+    },
+    {
+        "countryImg": "images/countryFlags/Burkina Faso.png",
+        "CountryCode": " +226"
+    },
+    {
+        "countryImg": "images/countryFlags/Burundi.png",
+        "CountryCode": " +257"
+    },
+    {
+        "countryImg": "images/countryFlags/Cambodja.png",
+        "CountryCode": " +855"
+    },
+    {
+        "countryImg": "images/countryFlags/Cameroon.png",
+        "CountryCode": " +237"
+    },
+    {
+        "countryImg": "images/countryFlags/Canada.png",
+        "CountryCode": " +1"
+    },
+    {
+        "countryImg": "images/countryFlags/Cape Verde.png",
+        "CountryCode": " +238"
+    },
+    {
+        "countryImg": "images/countryFlags/Cayman Islands.png",
+        "CountryCode": " +1-345"
+    },
+    {
+        "countryImg": "images/countryFlags/Central African Republic.png",
+        "CountryCode": "+236"
+    },
+    {
+        "countryImg": "images/countryFlags/Chad.png",
+        "CountryCode": "+235"
+    },
+    {
+        "countryImg": "images/countryFlags/Chile.png",
+        "CountryCode": "+56"
+    },
+    {
+        "countryImg": "images/countryFlags/China.png",
+        "CountryCode": "+86"
+    },
+    {
+        "countryImg": "images/countryFlags/Colombia.png",
+        "CountryCode": "+57"
+    },
+    {
+        "countryImg": "images/countryFlags/Comoros.png",
+        "CountryCode": "+269"
+    },
+    {
+        "countryImg": "images/countryFlags/Congo-Brazzaville.png",
+        "CountryCode": "+242"
+    },
+    {
+        "countryImg": "images/countryFlags/Congo-Kinshasa(Zaire).png",
+        "CountryCode": "+243"
+    },
+    {
+        "countryImg": "images/countryFlags/Cook Islands.png",
+        "CountryCode": "+682"
+    },
+    {
+        "countryImg": "images/countryFlags/Costa Rica.png",
+        "CountryCode": "+506"
+    },
+    {
+        "countryImg": "images/countryFlags/Cote d'Ivoire.png",
+        "CountryCode": "+225"
+    },
+    {
+        "countryImg": "images/countryFlags/Croatia.png",
+        "CountryCode": "+385"
+    },
+    {
+        "countryImg": "images/countryFlags/Cuba.png",
+        "CountryCode": "+53"
+    },
+    {
+        "countryImg": "images/countryFlags/Cyprus.png",
+        "CountryCode": "+357"
+    },
+    {
+        "countryImg": "images/countryFlags/Czech Republic.png",
+        "CountryCode": "+420"
+    },
+    {
+        "countryImg": "images/countryFlags/Denmark.png",
+        "CountryCode": "+45"
+    },
+    {
+        "countryImg": "images/countryFlags/Djibouti.png",
+        "CountryCode": "+253"
+    },
+    {
+        "countryImg": "images/countryFlags/Dominica.png",
+        "CountryCode": "+1-767"
+    },
+    {
+        "countryImg": "images/countryFlags/Dominican Republic.png",
+        "CountryCode": "+1-809"
+    },
+    {
+        "countryImg": "images/countryFlags/Equador.png",
+        "CountryCode": "+593"
+    },
+    {
+        "countryImg": "images/countryFlags/Egypt.png",
+        "CountryCode": "+20"
+    },
+    {
+        "countryImg": "images/countryFlags/El Salvador.png",
+        "CountryCode": "+503"
+    },
+    {
+        "countryImg": "images/countryFlags/Equatorial Guinea.png",
+        "CountryCode": "+240"
+    },
+    {
+        "countryImg": "images/countryFlags/Eritrea.png",
+        "CountryCode": "+291"
+    },
+    {
+        "countryImg": "images/countryFlags/Estonia.png",
+        "CountryCode": "+372"
+    },
+    {
+        "countryImg": "images/countryFlags/Ethiopia.png",
+        "CountryCode": "+251"
+    },
+    {
+        "countryImg": "images/countryFlags/Faroes.png",
+        "CountryCode": "+298"
+    },
+    {
+        "countryImg": "images/countryFlags/Fiji.png",
+        "CountryCode": "+679"
+    },
+    {
+        "countryImg": "images/countryFlags/Finland.png",
+        "CountryCode": "+358"
+    },
+    {
+        "countryImg": "images/countryFlags/France.png",
+        "CountryCode": "+33"
+    },
+    {
+        "countryImg": "images/countryFlags/Gabon.png",
+        "CountryCode": "+241"
+    },
+    {
+        "countryImg": "images/countryFlags/Gambia.png",
+        "CountryCode": "+220"
+    },
+    {
+        "countryImg": "images/countryFlags/Georgia.png",
+        "CountryCode": "+995"
+    },
+    {
+        "countryImg": "images/countryFlags/Germany.png",
+        "CountryCode": "+49"
+    },
+    {
+        "countryImg": "images/countryFlags/Ghana.png",
+        "CountryCode": "+233"
+    },
+    {
+        "countryImg": "images/countryFlags/Gibraltar.png",
+        "CountryCode": "+350"
+    },
+    {
+        "countryImg": "images/countryFlags/Greece.png",
+        "CountryCode": "+30"
+    },
+    {
+        "countryImg": "images/countryFlags/Greenland.png",
+        "CountryCode": "+299"
+    },
+    {
+        "countryImg": "images/countryFlags/Grenada.png",
+        "CountryCode": "+1-473"
+    },
+    {
+        "countryImg": "images/countryFlags/Guadeloupe.png",
+        "CountryCode": "+590"
+    },
+    {
+        "countryImg": "images/countryFlags/Guatemala.png",
+        "CountryCode": "+502"
+    },
+    {
+        "countryImg": "images/countryFlags/Guam.png",
+        "CountryCode": "+1-671"
+    },
+    {
+        "countryImg": "images/countryFlags/Guinea.png",
+        "CountryCode": "+224"
+    },
+    {
+        "countryImg": "images/countryFlags/Guinea-Bissau.png",
+        "CountryCode": "+245"
+    },
+    {
+        "countryImg": "images/countryFlags/Guyana.png",
+        "CountryCode": "+592"
+    },
+    {
+        "countryImg": "images/countryFlags/Haiti.png",
+        "CountryCode": "+509"
+    },
+    {
+        "countryImg": "images/countryFlags/Honduras.png",
+        "CountryCode": "+504"
+    },
+    {
+        "countryImg": "images/countryFlags/Hong Kong.png",
+        "CountryCode": "+852"
+    },
+    {
+        "countryImg": "images/countryFlags/Hungary.png",
+        "CountryCode": "+36"
+    },
+    {
+        "countryImg": "images/countryFlags/Iceland.png",
+        "CountryCode": "+354"
+    },
+    {
+        "countryImg": "images/countryFlags/India.png",
+        "CountryCode": "+91"
+    },
+    {
+        "countryImg": "images/countryFlags/Indonesia.png",
+        "CountryCode": "+62"
+    },
+    {
+        "countryImg": "images/countryFlags/Iran.png",
+        "CountryCode": "+98"
+    },
+    {
+        "countryImg": "images/countryFlags/Iraq.png",
+        "CountryCode": "+964"
+    },
+    {
+        "countryImg": "images/countryFlags/Ireland.png",
+        "CountryCode": "+353"
+    },
+    {
+        "countryImg": "images/countryFlags/Isle of Man.png",
+        "CountryCode": "+44-1624"
+    },
+    {
+        "countryImg": "images/countryFlags/Israel.png",
+        "CountryCode": "+972"
+    },
+    {
+        "countryImg": "images/countryFlags/Italy.png",
+        "CountryCode": "+39"
+    },
+    {
+        "countryImg": "images/countryFlags/Jamaica.png",
+        "CountryCode": "+1-876"
+    },
+    {
+        "countryImg": "images/countryFlags/Japan.png",
+        "CountryCode": "+81"
+    },
+    {
+        "countryImg": "images/countryFlags/Jersey.png",
+        "CountryCode": "+44-1534"
+    },
+    {
+        "countryImg": "images/countryFlags/Jordan.png",
+        "CountryCode": "+962"
+    },
+    {
+        "countryImg": "images/countryFlags/Kazakhstan.png",
+        "CountryCode": "+7"
+    },
+    {
+        "countryImg": "images/countryFlags/Kenya.png",
+        "CountryCode": "+254"
+    },
+    {
+        "countryImg": "images/countryFlags/Kiribati.png",
+        "CountryCode": "+686"
+    },
+    {
+        "countryImg": "images/countryFlags/Kosovo.png",
+        "CountryCode": "+383"
+    },
+    {
+        "countryImg": "images/countryFlags/Kuwait.png",
+        "CountryCode": "+965"
+    },
+    {
+        "countryImg": "images/countryFlags/Kyrgyzstan.png",
+        "CountryCode": "+996"
+    },
+    {
+        "countryImg": "images/countryFlags/Laos.png",
+        "CountryCode": "+856"
+    },
+    {
+        "countryImg": "images/countryFlags/Latvia.png",
+        "CountryCode": "+371"
+    },
+    {
+        "countryImg": "images/countryFlags/Lebanon.png",
+        "CountryCode": "+961"
+    },
+    {
+        "countryImg": "images/countryFlags/Lesotho.png",
+        "CountryCode": "+266"
+    },
+    {
+        "countryImg": "images/countryFlags/Liberia.png",
+        "CountryCode": "+231"
+    },
+    {
+        "countryImg": "images/countryFlags/Libya.png",
+        "CountryCode": "+218"
+    },
+    {
+        "countryImg": "images/countryFlags/Liechtenstein.png",
+        "CountryCode": "+423"
+    },
+    {
+        "countryImg": "images/countryFlags/Lithuania.png",
+        "CountryCode": "+370"
+    },
+    {
+        "countryImg": "images/countryFlags/Luxembourg.png",
+        "CountryCode": "+352"
+    },
+    {
+        "countryImg": "images/countryFlags/Macao.png",
+        "CountryCode": "+853"
+    },
+    {
+        "countryImg": "images/countryFlags/Macedonia.png",
+        "CountryCode": "+389"
+    },
+    {
+        "countryImg": "images/countryFlags/Madagascar.png",
+        "CountryCode": "+261"
+    },
+    {
+        "countryImg": "images/countryFlags/Malawi.png",
+        "CountryCode": "+265"
+    },
+    {
+        "countryImg": "images/countryFlags/Malaysia.png",
+        "CountryCode": "+60"
+    },
+    {
+        "countryImg": "images/countryFlags/Maldives.png",
+        "CountryCode": "+960"
+    },
+    {
+        "countryImg": "images/countryFlags/Mali.png",
+        "CountryCode": "+223"
+    },
+    {
+        "countryImg": "images/countryFlags/Malta.png",
+        "CountryCode": "+356"
+    },
+    {
+        "countryImg": "images/countryFlags/Marshall Islands.png",
+        "CountryCode": "+692"
+    },
+    {
+        "countryImg": "images/countryFlags/Martinique.png",
+        "CountryCode": "+596"
+    },
+    {
+        "countryImg": "images/countryFlags/Mauritania.png",
+        "CountryCode": "+222"
+    },
+    {
+        "countryImg": "images/countryFlags/Mauritius.png",
+        "CountryCode": "+230"
+    },
+    {
+        "countryImg": "images/countryFlags/Mexico.png",
+        "CountryCode": "+52"
+    },
+    {
+        "countryImg": "images/countryFlags/Micronesia.png",
+        "CountryCode": "+691"
+    },
+    {
+        "countryImg": "images/countryFlags/Moldova.png",
+        "CountryCode": "+373"
+    },
+    {
+        "countryImg": "images/countryFlags/Monaco.png",
+        "CountryCode": "+377"
+    },
+    {
+        "countryImg": "images/countryFlags/Mongolia.png",
+        "CountryCode": "+976"
+    },
+    {
+        "countryImg": "images/countryFlags/Montenegro.png",
+        "CountryCode": "+382"
+    },
+    {
+        "countryImg": "images/countryFlags/Montserrat.png",
+        "CountryCode": "+1-664"
+    },
+    {
+        "countryImg": "images/countryFlags/Morocco.png",
+        "CountryCode": "+212"
+    },
+    {
+        "countryImg": "images/countryFlags/Mozambique.png",
+        "CountryCode": "+258"
+    },
+    {
+        "countryImg": "images/countryFlags/Myanmar(Burma).png",
+        "CountryCode": "+95"
+    },
+    {
+        "countryImg": "images/countryFlags/Namibia.png",
+        "CountryCode": "+264"
+    },
+    {
+        "countryImg": "images/countryFlags/Nauru.png",
+        "CountryCode": "+674"
+    },
+    {
+        "countryImg": "images/countryFlags/Nepal.png",
+        "CountryCode": "+977"
+    },
+    {
+        "countryImg": "images/countryFlags/Netherlands Antilles.png",
+        "CountryCode": "+599"
+    },
+    {
+        "countryImg": "images/countryFlags/Netherlands.png",
+        "CountryCode": "+31"
+    },
+    {
+        "countryImg": "images/countryFlags/New Caledonia.png",
+        "CountryCode": "+687"
+    },
+    {
+        "countryImg": "images/countryFlags/New Zealand.png",
+        "CountryCode": "+64"
+    },
+    {
+        "countryImg": "images/countryFlags/Nicaragua.png",
+        "CountryCode": "+505"
+    },
+    {
+        "countryImg": "images/countryFlags/Niger.png",
+        "CountryCode": "+227"
+    },
+    {
+        "countryImg": "images/countryFlags/Nigeria.png",
+        "CountryCode": "+234"
+    },
+    {
+        "countryImg": "images/countryFlags/North Korea.png",
+        "CountryCode": "+850"
+    },
+    {
+        "countryImg": "images/countryFlags/Northern Cyprus.png",
+        "CountryCode": "+90"
+    },
+    {
+        "countryImg": "images/countryFlags/Norway.png",
+        "CountryCode": "+47"
+    },
+    {
+        "countryImg": "images/countryFlags/Oman.png",
+        "CountryCode": "+968"
+    },
+    {
+        "countryImg": "images/countryFlags/Pakistan.png",
+        "CountryCode": "+92"
+    },
+    {
+        "countryImg": "images/countryFlags/Palau.png",
+        "CountryCode": "+680"
+    },
+    {
+        "countryImg": "images/countryFlags/Palestine.png",
+        "CountryCode": "+970"
+    },
+    {
+        "countryImg": "images/countryFlags/Panama.png",
+        "CountryCode": "+507"
+    },
+    {
+        "countryImg": "images/countryFlags/Papua New Guinea.png",
+        "CountryCode": "+675"
+    },
+    {
+        "countryImg": "images/countryFlags/Paraguay.png",
+        "CountryCode": "+595"
+    },
+    {
+        "countryImg": "images/countryFlags/Peru.png",
+        "CountryCode": "+51"
+    },
+    {
+        "countryImg": "images/countryFlags/Philippines.png",
+        "CountryCode": "+63"
+    },
+    {
+        "countryImg": "images/countryFlags/Poland.png",
+        "CountryCode": "+48"
+    },
+    {
+        "countryImg": "images/countryFlags/Portugal.png",
+        "CountryCode": "+351"
+    },
+    {
+        "countryImg": "images/countryFlags/Puerto Rico.png",
+        "CountryCode": "+1-787"
+    },
+    {
+        "countryImg": "images/countryFlags/Qatar.png",
+        "CountryCode": "+974"
+    },
+    {
+        "countryImg": "images/countryFlags/Reunion.png",
+        "CountryCode": "+262"
+    },
+    {
+        "countryImg": "images/countryFlags/Romania.png",
+        "CountryCode": "+40"
+    },
+    {
+        "countryImg": "images/countryFlags/Russian Federation.png",
+        "CountryCode": "+7"
+    },
+    {
+        "countryImg": "images/countryFlags/Rwanda.png",
+        "CountryCode": "+250"
+    },
+    {
+        "countryImg": "images/countryFlags/Saint Lucia.png",
+        "CountryCode": "+1-758"
+    },
+    {
+        "countryImg": "images/countryFlags/Samoa.png",
+        "CountryCode": "+685"
+    },
+    {
+        "countryImg": "images/countryFlags/San Marino.png",
+        "CountryCode": "+378"
+    },
+    {
+        "countryImg": "images/countryFlags/Sao_Tome_Principe.png",
+        "CountryCode": "+239"
+    },
+    {
+        "countryImg": "images/countryFlags/Saudi Arabia.png",
+        "CountryCode": "+966"
+    },
+    {
+        "countryImg": "images/countryFlags/Senegal.png",
+        "CountryCode": "+221"
+    },
+    {
+        "countryImg": "images/countryFlags/Serbia.png",
+        "CountryCode": "+381"
+    },
+    {
+        "countryImg": "images/countryFlags/Seyshelles.png",
+        "CountryCode": "+248"
+    },
+    {
+        "countryImg": "images/countryFlags/Sierra Leone.png",
+        "CountryCode": "+232"
+    },
+    {
+        "countryImg": "images/countryFlags/Singapore.png",
+        "CountryCode": "+65"
+    },
+    {
+        "countryImg": "images/countryFlags/Slovakia.png",
+        "CountryCode": "+421"
+    },
+    {
+        "countryImg": "images/countryFlags/Slovenia.png",
+        "CountryCode": "+386"
+    },
+    {
+        "countryImg": "images/countryFlags/Solomon Islands.png",
+        "CountryCode": "+677"
+    },
+    {
+        "countryImg": "images/countryFlags/Somalia.png",
+        "CountryCode": "+252"
+    },
+    {
+        "countryImg": "images/countryFlags/Somaliland.png",
+        "CountryCode": "+252"
+    },
+    {
+        "countryImg": "images/countryFlags/South Africa.png",
+        "CountryCode": "+27"
+    },
+    {
+        "countryImg": "images/countryFlags/South Korea.png",
+        "CountryCode": "+82"
+    },
+    {
+        "countryImg": "images/countryFlags/Spain.png",
+        "CountryCode": "+34"
+    },
+    {
+        "countryImg": "images/countryFlags/Sri Lanka.png",
+        "CountryCode": "+94"
+    },
+    {
+        "countryImg": "images/countryFlags/St Kitts_Nevis.png",
+        "CountryCode": "+1-869"
+    },
+    {
+        "countryImg": "images/countryFlags/St Vincent_the Grenadines.png",
+        "CountryCode": "+1-784"
+    },
+    {
+        "countryImg": "images/countryFlags/Sudan.png",
+        "CountryCode": "+249"
+    },
+    {
+        "countryImg": "images/countryFlags/Suriname.png",
+        "CountryCode": "+597"
+    },
+    {
+        "countryImg": "images/countryFlags/Swaziland.png",
+        "CountryCode": "+268"
+    },
+    {
+        "countryImg": "images/countryFlags/Sweden.png",
+        "CountryCode": "+46"
+    },
+    {
+        "countryImg": "images/countryFlags/Switzerland.png",
+        "CountryCode": "+41"
+    },
+    {
+        "countryImg": "images/countryFlags/Syria.png",
+        "CountryCode": "+963"
+    },
+    {
+        "countryImg": "images/countryFlags/Tahiti(French Polinesia).png",
+        "CountryCode": "+689"
+    },
+    {
+        "countryImg": "images/countryFlags/Taiwan.png",
+        "CountryCode": "+886"
+    },
+    {
+        "countryImg": "images/countryFlags/Tajikistan.png",
+        "CountryCode": "+992"
+    },
+    {
+        "countryImg": "images/countryFlags/Tanzania.png",
+        "CountryCode": "+255"
+    },
+    {
+        "countryImg": "images/countryFlags/Thailand.png",
+        "CountryCode": "+66"
+    },
+    {
+        "countryImg": "images/countryFlags/Timor-Leste.png",
+        "CountryCode": "+670"
+    },
+    {
+        "countryImg": "images/countryFlags/Togo.png",
+        "CountryCode": "+228"
+    },
+    {
+        "countryImg": "images/countryFlags/Tonga.png",
+        "CountryCode": "+676"
+    },
+    {
+        "countryImg": "images/countryFlags/Trinidad_Tobago.png",
+        "CountryCode": "+1-868"
+    },
+    {
+        "countryImg": "images/countryFlags/Tunisia.png",
+        "CountryCode": "+216"
+    },
+    {
+        "countryImg": "images/countryFlags/Turkey.png",
+        "CountryCode": "+90"
+    },
+    {
+        "countryImg": "images/countryFlags/Turkmenistan.png",
+        "CountryCode": "+993"
+    },
+    {
+        "countryImg": "images/countryFlags/Turks and Caicos Islands.png",
+        "CountryCode": "+1-649"
+    },
+    {
+        "countryImg": "images/countryFlags/Tuvalu.png",
+        "CountryCode": "+688"
+    },
+    {
+        "countryImg": "images/countryFlags/Uganda.png",
+        "CountryCode": "+256"
+    },
+    {
+        "countryImg": "images/countryFlags/Ukraine.png",
+        "CountryCode": "+380"
+    },
+   
+    {
+        "countryImg": "images/countryFlags/United Kingdom(Great Britain).png",
+        "CountryCode": "+44"
+    },
+    {
+        "countryImg": "images/countryFlags/United States of America.png",
+        "CountryCode": "+1"
+    },
+    {
+        "countryImg": "images/countryFlags/Uruguay.png",
+        "CountryCode": "+598"
+    },
+    {
+        "countryImg": "images/countryFlags/Uzbekistan.png",
+        "CountryCode": "+998"
+    },
+    {
+        "countryImg": "images/countryFlags/Vanuatu.png",
+        "CountryCode": "+678"
+    },
+    {
+        "countryImg": "images/countryFlags/Vatican City.png",
+        "CountryCode": "+379"
+    },
+    {
+        "countryImg": "images/countryFlags/Venezuela.png",
+        "CountryCode": "+58"
+    },
+    {
+        "countryImg": "images/countryFlags/Viet Nam.png",
+        "CountryCode": "+84"
+    },
+    {
+        "countryImg": "images/countryFlags/Virgin Islands British.png",
+        "CountryCode": "+1"
+    },
+    {
+        "countryImg": "images/countryFlags/Virgin Islands US.png",
+        "CountryCode": "+1-340"
+    },
+    {
+        "countryImg": "images/countryFlags/Western Sahara.png",
+        "CountryCode": "+212"
+    },
+    {
+        "countryImg": "images/countryFlags/Yemen.png",
+        "CountryCode": "+967"
+    },
+    {
+        "countryImg": "images/countryFlags/Zambia.png",
+        "CountryCode": "+260"
+    },
+    {
+        "countryImg": "images/countryFlags/Zimbabwe.png",
+        "CountryCode": "+263"
+    }
+]

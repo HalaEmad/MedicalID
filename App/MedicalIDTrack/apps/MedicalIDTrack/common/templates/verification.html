@@ -1,0 +1,42 @@
+<div id="content">
+	<form>
+<div name="loginPage_form" ng-form="loginPage_form" ng-app="dsfApp">
+	<div class="enter-block">
+		<h1>{{"VERIFICATION_HEADERPART1"| translate}}</h1>
+		<p>{{"VERIFICATION_HEADERPART2" | translate}}</p>
+		<!-- enter form -->
+		<div class="enter-form">
+			<div class="form-row">
+			<input type="text" placeholder="Code" id="username" ng-model="username" name="username" ng-pattern="{{'patternToUSe'}}" ng-required="true" >
+			</div>
+			<div class="form-row">
+			
+			<div>
+					<input id="mobile" type="text" placeholder="Password" ng-model="mobileNo" ng-minlength="5" ng-maxlength="10" name="mobileNo" ng-pattern="/^[0-9]*$/" ng-required="true">
+					<!-- "/^[0-9]*$/" -->
+			</div>
+			<!-- <div class="checkboxwidth radio loginCheckBoxIsAdibCustomer" style="text-align: left;padding-bottom: 5%;" >
+				<input id="cat1" type="checkbox" ng-model="cat1"> <labelfor="cat1" class="checkboxLaberWidth">{{"LOGIN_ADIBCUSTOMER"| translate}}</label>
+			</div> -->
+			<div class="form-row buttons loginButtonClassPadding">
+				<input type="button" value="Submit" ng-click="validateData()">
+			</div>	
+			
+			
+			<div class="form-row">
+				<div>
+				<p style="display:inline;">{{"VERIFICATION_DISCLAIMER"| translate}}<a ng-click="termsAndConditionspage()">Contact Us</a> 
+				</p>
+				
+			</div>
+			<br>
+			<div>
+				<p>{{"LOGIN_COPYRIGHTS" | translate}}</p>
+			</div>
+			<div class="form-row">
+			</div>
+		</div>
+	</div>
+</div>
+</form>
+</div>

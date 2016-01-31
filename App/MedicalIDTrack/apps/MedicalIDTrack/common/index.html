@@ -1,0 +1,136 @@
+<!DOCTYPE HTML>
+<html data-ng-app="dsf">
+<head>
+<meta charset="UTF-8">
+<title>ADIB_DSF</title>
+<meta name="viewport"
+	content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="css/Roboto.css" type="text/css"> 
+<link media="all" rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/swipebox.min.css">
+
+<link rel="stylesheet" href="css/socialTwitter.css">
+<link rel="stylesheet" type="text/css" href="css/sweetalert.css">
+
+<script src="js/libs/sweetalert.min.js"></script>
+<!-- <link rel="stylesheet" href="css/main.css"> -->
+<!-- <script>window.$ = window.jQuery = WLJQ;</script> -->
+
+<!-- <link rel="stylesheet" href="css/material_icons.css">
+ -->
+<!-- <link rel="stylesheet" href="css/Roboto.css" type="text/css"> -->
+<!-- <link rel="stylesheet" href="css/animsition.css"> -->
+<!--  -->
+<!-- <link rel="stylesheet" href="css/material.blue-light_blue.min.css"> -->
+ 
+<link rel="stylesheet" href="css/swiper.min.css"> 
+<!-- <link rel="stylesheet" href="css/style.css"> -->
+<!-- <link rel="stylesheet" href="css/angular-carousel.css"> -->
+<!-- <link rel="stylesheet" href="js/libs/jquery.ui/jquery-ui.min.css"> -->
+<!--  -->
+<!-- <link rel="stylesheet" href="css/main_org.css">  -->
+
+<script src="js/libs/jquery-1.11.2.min.js"></script>
+<script src="js/libs/jquery.main.js"></script>
+<!-- <script src="js/libs/buttons.js"></script> 
+ --><!-- <script type="text/javascript">stLight.options({publisher: "c1bcc98d-82f8-42b9-9d15-66cbad590de8"}); </script>  -->
+<!-- <script src="js/libs/jquery-2.1.4.min.js"></script>
+<script src="js/libs/jquery.animsition.js"></script>
+
+<script src="js/libs/material.min.js"></script>
+<script src="js/libs/jquery.swipebox.min.js"></script>
+<script src="js/libs/swiper.min.js"></script>
+<script src="js/libs/function.js"></script> -->
+
+<script src="js/libs/oauth.min.js"></script>
+
+
+<script src="js/libs/angular.min.js"></script>
+<script src="js/libs/autocomplete.js"></script>
+<script src="js/libs/angular-ui-router.js"></script>
+<script src="js/libs/angular-sanitize.min.js"></script>
+<script src="js/libs/angular-touch.min.js"></script>
+<script src="js/libs/angular-translate.min.js"></script>
+<script src="js/libs/angular-translate-loader-static-files.min.js"></script>
+<script src="js/libs/angular-carousel.min.js"></script>
+<script src="js/libs/socialSharing.js"></script>
+<!-- <script src="js/libs/jquery.ui/jquery-ui.min.js"></script>
+ -->
+<script src="js/app.js"></script>
+<script src="js/models/localStorageService.js"></script>
+<script src="js/controllers/mainController.js"></script>
+<script src="js/models/MsgsModel.js"></script>
+<script src="js/dsfSocialShare.js"></script>
+<script src="js/models/databaseService.js"></script>
+
+<script src="js/models/userModel.js"></script>
+<script src="js/models/CyclicJobsModel.js"></script>
+<script src="js/models/offerModel.js"></script>
+<script src="js/models/twitterService.js"></script>
+<script src="js/models/SearchModel.js"></script>
+<script src="js/controllers/homeController.js"></script>
+<script src="js/controllers/offerDetailsController.js"></script>
+<script src="js/controllers/userProfileController.js"></script>
+<script src="js/controllers/loginController.js"></script>
+<script src="js/controllers/contactusController.js"></script>
+<script src="js/controllers/searchController.js"></script>
+<script src="js/controllers/socialTwitterController.js"></script>
+<script src="js/controllers/favoritesController.js"></script>
+<script src="js/controllers/showoffersController.js"></script>
+<script src="js/controllers/merchantController.js"></script>
+<script src="js/controllers/adiboffersController.js"></script>
+<script src="js/controllers/searchResultDetailsController.js"></script>
+
+<script src="js/controllers/filteredOfferListController.js"></script>
+<script src="js/directives/deleteFavoritesDirective.js"></script>
+<script src="js/controllers/termsAndConditionsController.js"></script>
+<script src="js/controllers/adibtopratedoffersController.js"></script>
+<script src="js/controllers/verificationController.js"></script>
+
+
+<!--application UI goes here-->
+<script src="js/initOptions.js"></script>
+<script src="js/main.js"></script>
+<script src="js/messages.js"></script>
+
+</head>
+<body data-ng-controller="mainController" ng-class="[bodyClass,{'hide-drawer': hideDrawer}]" class="sideMenuHide">
+	<div id="wrapper">
+		<header id="header" class="bordered hideHeader" ng-hide="hideHeader">
+			<a class="link-nav" href="#"><i class="icon-menu"></i><span>Menu</span></a>
+			<h1>{{PageHeaderParam}}</h1>
+		</header>
+		<!-- Sidebar -->
+		<div class="nav-drop">
+			<div class="inside">
+				<div class="visual">
+					<img src="images/weCareimg.jpg"  width="250" height="250">
+				</div>
+				<!-- main navigation of the page -->
+				<ul id="nav">
+					<li><a ng-click="homePageNav()"><i class="sideMenuIcons sideMenuHomeIconImg"></i>Home</a></li>
+					<li><a ng-click="homePageNav()"><i class="sideMenuIcons sideMenuAllergieIconImg"></i>Allergies</a></li>
+					<li><a ng-click="homePageNav()"><i class="sideMenuIcons sideMenuheartIconImg"></i>Major Illness</a></li>
+					<li><a ng-click="homePageNav()"><i class="sideMenuIcons sideMenuEventsIconImg"></i>Medical Events</a></li>
+					<li><a ng-click="homePageNav()"><i class="sideMenuIcons sideMenuCurrentMedicationIconImg"></i>Current Medication</a></li>
+					<li><a ng-click="homePageNav()"><i class="sideMenuIcons testsIconImg"></i>Tests</a></li>
+					<li><a ng-click="homePageNav()"><i class="sideMenuIcons surgicalProcedureIconImg"></i>Surgical Procedures</a></li>
+					<li><a ng-click="homePageNav()"><i class="sideMenuIcons sideMenuAnaesthesiaIconImg"></i>Anaesthesia Problems</a></li>
+					<li><a ng-click="homePageNav()"><i class="sideMenuIcons sideMenuTraumaIconImg"></i>Trauma History</a></li>
+					<li><a ng-click="homePageNav()"><i class="sideMenuIcons surgicalProcedureIconImg"></i>Cancer History</a></li>
+					<li><a ng-click="homePageNav()"><i class="sideMenuIcons childhoodHistoryIconImg"></i>Childhood History</a></li>
+					<li><a ng-click="homePageNav()"><i class="sideMenuIcons FoodDietIconImg"></i>Food/Diet Supplementaries</a></li>
+					<li><a ng-click="contactusPageNav()"><i class="sideMenuIcons sideMenuContactUsIconImg"></i>Contact Us</a></li>
+					<li><a ng-click="userProfilePageNav()"><i class="sideMenuIcons sideMenuPersonalizeIconImg"></i>User Profile</a></li>
+					<li><a ng-click="dsftTermsAndConditions()"><i class="sideMenuIcons sideMenuTermsAndConditionsImg"></i>Terms & Conditions</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<!-- Page Content -->
+		<main>
+		<div class="content index view-content" data-ui-view="viewContent"
+			ng-class="{'main-arabic':'ar'==userLang}"></div>
+ 		</main>	</div>
+</body>
+</html>

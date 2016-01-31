@@ -1,0 +1,89 @@
+{
+  "Categories": [
+    {
+      "cat_id": "1",
+      "cat_name_en": "Grocery",
+      "cat_img": "images/categories/hypermarket-supermarket.jpg",
+      "cat_img2x":"images/categories/hypermarket-supermarket-2x.jpg"
+    },
+    {
+      "cat_id": "2",
+      "cat_name_en": "Automotive",
+      "cat_img": "images/categories/automotive-boats.jpg",
+      "cat_img2x":"images/categories/automotive-boats-2x.jpg"
+    },
+    {
+      "cat_id": "3",
+      "cat_name_en": "Beauty",
+       "cat_img": "images/categories/health-beauty.jpg",
+       "cat_img2x":"images/categories/health-beauty-2x.jpg"
+    },
+    {
+      "cat_id": "4",
+      "cat_name_en": "Fashion",
+      "cat_img": "images/categories/fashion.jpg",
+      "cat_img2x":"images/categories/fashion-2x.jpg"
+    },
+   
+    {
+      "cat_id": "6",
+      "cat_name_en": "Hotels",
+  	  "cat_img": "images/categories/hotel.jpg",
+      "cat_img2x":"images/categories/hotel-2x.jpg"
+    },
+    {
+      "cat_id": "7",
+      "cat_name_en": "Jewellery",
+  	  "cat_img": "images/categories/gold-jewellery.jpg",
+      "cat_img2x":"images/categories/gold-jewellery-2x.jpg"
+    },
+    {
+      "cat_id": "8",
+      "cat_name_en": "Food",
+       "cat_img": "images/categories/food-beverage.jpg",
+      "cat_img2x":"images/categories/food-beverage-2x.jpg"
+    },
+    {
+      "cat_id": "9",
+      "cat_name_en": "Home",
+      "cat_img": "images/categories/home-furnishing.jpg",
+      "cat_img2x":"images/categories/home-furnishing-2x.jpg"
+    },
+    {
+      "cat_id": "10",
+      "cat_name_en": "Finance",
+      "cat_img": "images/categories/finance-insurance.jpg",
+      "cat_img2x":"images/categories/finance-insurance-2x.jpg "
+    },
+    {
+      "cat_id": "11",
+      "cat_name_en": "Leisure",
+      "cat_img":"images/categories/entertainment.jpg",
+      "cat_img2x":"images/categories/entertainment-2x.jpg"
+    },
+    {
+      "cat_id": "12",
+      "cat_name_en": "Services",
+      "cat_img":"images/categories/services.jpg",
+      "cat_img2x":"images/categories/services-2x.jpg"
+    },
+    {
+      "cat_id": "13",
+      "cat_name_en": "Sports",
+      "cat_img":"images/categories/sports.jpg",
+      "cat_img2x":"images/categories/sports-2x.jpg"
+    },
+    {
+      "cat_id": "14",
+      "cat_name_en": "Souvenirs",
+      "cat_img":"images/categories/specialty-stores.jpg",
+      "cat_img2x":"images/categories/specialty-stores-2x.jpg"
+    },
+    {
+      "cat_id": "15",
+      "cat_name_en": "Electronics",
+      "cat_img":"images/categories/electronics.jpg",
+      "cat_img2x":"images/categories/electronics-2x.jpg"
+    }
+  ]
+}

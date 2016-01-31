@@ -1,0 +1,49 @@
+<div id="content">
+	<form>
+<div name="loginPage_form" ng-form="loginPage_form" ng-app="dsfApp">
+	<div class="enter-block">
+		<h1>{{"LOGIN_HEADERPART1"| translate}}</h1>
+		<p>{{"LOGIN_HEADERPART2" | translate}}</p>
+		<!-- enter form -->
+		<div class="enter-form">
+			<div class="form-row">
+			<input type="text" placeholder="Name*" id="username" ng-model="username" name="username" ng-pattern="{{'patternToUSe'}}" ng-required="true" >
+			<!-- /^[]([a-zA-Z]+\s)*[a-zA-Z]+$/ -->
+				<span style="color: red"ng-show="loginPage_form.username.$dirty && loginPage_form.username.$invalid">
+				<span ng-show="loginPage_form.username.$error.pattern">Not a valid name!</span>
+			    <span ng-show="loginPage_form.username.$error.required">Full Name is required.</span>
+			</span>	
+			</div>
+			<div class="form-row">
+			<!-- <select class="countries"  id="mobilePrefix"  ng-model="mobilePrefix">
+			<option ng-repeat="countryItem in counrtyFlagAndCodeUserProfile | orderBy:'CountryCode'"  data-image="{{countryItem.countryImg}}">{{countryItem.CountryCode}}</option>
+ 			 </select> -->
+				<div>
+					<input id="mobile" type="password" placeholder="Password" ng-model="mobileNo" ng-minlength="5" ng-maxlength="10" name="mobileNo" ng-pattern="/^[0-9]*$/" ng-required="true">
+					<!-- "/^[0-9]*$/" -->
+			</div>
+			<!-- <div class="checkboxwidth radio loginCheckBoxIsAdibCustomer" style="text-align: left;padding-bottom: 5%;" >
+				<input id="cat1" type="checkbox" ng-model="cat1"> <labelfor="cat1" class="checkboxLaberWidth">{{"LOGIN_ADIBCUSTOMER"| translate}}</label>
+			</div> -->
+			<div class="form-row buttons loginButtonClassPadding">
+				<input type="button" value="Submit" ng-click="validateData()">
+			</div>	
+			
+			
+			<div class="form-row">
+				<div>
+				<p style="display:inline;">{{"LOGIN_DISCLAIMER"| translate}}<a ng-click="termsAndConditionspage()">Terms & Conditions</a> 
+				</p>
+				
+			</div>
+			<br>
+			<div>
+				<p>{{"LOGIN_COPYRIGHTS" | translate}}</p>
+			</div>
+			<div class="form-row">
+			</div>
+		</div>
+	</div>
+</div>
+</form>
+</div>

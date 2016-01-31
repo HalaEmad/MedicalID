@@ -1,0 +1,12 @@
+<div id="content">
+    <div class="content-inner">
+        <ul class="items-list">
+            <li ng-repeat="t in tweets | filter:searchTerm" class="tweetMainLi">
+                <div class="tweetBlockClass"><i class="socialTweetsIcon"></i></div>
+                <div class="tweetText" ng-bind-html="t.text"></div>
+               
+            </li>
+            
+        </ul>
+    </div>
+</div>

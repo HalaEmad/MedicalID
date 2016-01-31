@@ -1,0 +1,481 @@
+[{
+	"IS_MALL": "Y",
+	"LONGITUTE": "55.435294",
+	"NAME": "Arabian Center",
+	"ID": 1,
+	"LATITUDE": "25.233624"
+}, {
+	"IS_MALL": "Y",
+	"LONGITUTE": "55.241757",
+	"NAME": "Oasis Center",
+	"ID": 2,
+	"LATITUDE": "25.169574"
+}, {
+	"IS_MALL": null,
+	"LONGITUTE": null,
+	"NAME": "Al Quoz First",
+	"ID": 3,
+	"LATITUDE": null
+}, {
+	"IS_MALL": null,
+	"LONGITUTE": null,
+	"NAME": "Al Muraqqabat",
+	"ID": 4,
+	"LATITUDE": null
+}, {
+	"IS_MALL": "Y",
+	"LONGITUTE": "55.262066",
+	"NAME": "Jumaira Plaza",
+	"ID": 5,
+	"LATITUDE": "25.22951"
+}, {
+	"IS_MALL": "Y",
+	"LONGITUTE": "55.302175",
+	"NAME": "BurJuman",
+	"ID": 6,
+	"LATITUDE": "25.253119"
+}, {
+	"IS_MALL": null,
+	"LONGITUTE": null,
+	"NAME": "Umm Suqeim First",
+	"ID": 7,
+	"LATITUDE": null
+}, {
+	"IS_MALL": null,
+	"LONGITUTE": null,
+	"NAME": "Al Quoz Industrial Fourth",
+	"ID": 8,
+	"LATITUDE": null
+}, {
+	"IS_MALL": "Y",
+	"LONGITUTE": "55.307834",
+	"NAME": "Lamcy Plaza",
+	"ID": 9,
+	"LATITUDE": "25.234302"
+}, {
+	"IS_MALL": "Y",
+	"LONGITUTE": "55.278885",
+	"NAME": "The Dubai Mall",
+	"ID": 10,
+	"LATITUDE": "25.197628"
+}, {
+	"IS_MALL": null,
+	"LONGITUTE": null,
+	"NAME": "TECOM",
+	"ID": 11,
+	"LATITUDE": null
+}, {
+	"IS_MALL": null,
+	"LONGITUTE": null,
+	"NAME": "Al Warqa'a Second",
+	"ID": 12,
+	"LATITUDE": null
+}, {
+	"IS_MALL": null,
+	"LONGITUTE": null,
+	"NAME": "Al Shindagha",
+	"ID": 13,
+	"LATITUDE": null
+}, {
+	"IS_MALL": "Y",
+	"LONGITUTE": "55.129597",
+	"NAME": "The BEACH",
+	"ID": 14,
+	"LATITUDE": "25.07557"
+}, {
+	"IS_MALL": null,
+	"LONGITUTE": null,
+	"NAME": "Dubai World Trade Center",
+	"ID": 15,
+	"LATITUDE": null
+}, {
+	"IS_MALL": null,
+	"LONGITUTE": null,
+	"NAME": "Al Khabisi",
+	"ID": 16,
+	"LATITUDE": null
+}, {
+	"IS_MALL": null,
+	"LONGITUTE": null,
+	"NAME": "Bur Dubai",
+	"ID": 17,
+	"LATITUDE": null
+}, {
+	"IS_MALL": null,
+	"LONGITUTE": null,
+	"NAME": "Jebel Ali 1",
+	"ID": 18,
+	"LATITUDE": null
+}, {
+	"IS_MALL": null,
+	"LONGITUTE": null,
+	"NAME": "Al Quoz Third",
+	"ID": 19,
+	"LATITUDE": null
+}, {
+	"IS_MALL": null,
+	"LONGITUTE": null,
+	"NAME": "Ramla Mall",
+	"ID": 20,
+	"LATITUDE": null
+}, {
+	"IS_MALL": "Y",
+	"LONGITUTE": "55.319402",
+	"NAME": "WAFI",
+	"ID": 21,
+	"LATITUDE": "25.229634"
+}, {
+	"IS_MALL": null,
+	"LONGITUTE": null,
+	"NAME": "Madina Mall",
+	"ID": 22,
+	"LATITUDE": null
+}, {
+	"IS_MALL": null,
+	"LONGITUTE": null,
+	"NAME": "Al Rigga",
+	"ID": 23,
+	"LATITUDE": null
+}, {
+	"IS_MALL": "Y",
+	"LONGITUTE": "55.417936",
+	"NAME": "Dragon Mart",
+	"ID": 24,
+	"LATITUDE": "25.174072"
+}, {
+	"IS_MALL": null,
+	"LONGITUTE": null,
+	"NAME": "Al Hudaiba",
+	"ID": 25,
+	"LATITUDE": null
+}, {
+	"IS_MALL": null,
+	"LONGITUTE": null,
+	"NAME": "Muhaisanah Second",
+	"ID": 26,
+	"LATITUDE": null
+}, {
+	"IS_MALL": "Y",
+	"LONGITUTE": "55.259222",
+	"NAME": "CITY WALK",
+	"ID": 27,
+	"LATITUDE": "25.210077"
+}, {
+	"IS_MALL": "Y",
+	"LONGITUTE": "55.322561",
+	"NAME": "Reef Mall",
+	"ID": 28,
+	"LATITUDE": "25.269607"
+}, {
+	"IS_MALL": null,
+	"LONGITUTE": null,
+	"NAME": "Al Mizhar First",
+	"ID": 29,
+	"LATITUDE": null
+}, {
+	"IS_MALL": "Y",
+	"LONGITUTE": "55.183445",
+	"NAME": "Souk Madinat",
+	"ID": 30,
+	"LATITUDE": "25.133099"
+}, {
+	"IS_MALL": null,
+	"LONGITUTE": null,
+	"NAME": "Bin Sougat Center",
+	"ID": 31,
+	"LATITUDE": null
+}, {
+	"IS_MALL": "Y",
+	"LONGITUTE": "55.251153",
+	"NAME": "BOXPARK",
+	"ID": 32,
+	"LATITUDE": "25.20165"
+}, {
+	"IS_MALL": "Y",
+	"LONGITUTE": "55.252976",
+	"NAME": "Mercato Shopping Mall",
+	"ID": 33,
+	"LATITUDE": "25.216743"
+}, {
+	"IS_MALL": null,
+	"LONGITUTE": null,
+	"NAME": "Palm Jumeira",
+	"ID": 34,
+	"LATITUDE": null
+}, {
+	"IS_MALL": "Y",
+	"LONGITUTE": "55.317552",
+	"NAME": "Al Ghurair Center",
+	"ID": 35,
+	"LATITUDE": "25.26876"
+}, {
+	"IS_MALL": null,
+	"LONGITUTE": null,
+	"NAME": "Al Quoz Industrial Second",
+	"ID": 36,
+	"LATITUDE": null
+}, {
+	"IS_MALL": "Y",
+	"LONGITUTE": "55.332803",
+	"NAME": "City Center Deira",
+	"ID": 37,
+	"LATITUDE": "25.252199"
+}, {
+	"IS_MALL": "Y",
+	"LONGITUTE": "55.34704",
+	"NAME": "Century Mall",
+	"ID": 38,
+	"LATITUDE": "25.290025"
+}, {
+	"IS_MALL": null,
+	"LONGITUTE": null,
+	"NAME": "Nad Al Hammar",
+	"ID": 39,
+	"LATITUDE": null
+}, {
+	"IS_MALL": null,
+	"LONGITUTE": null,
+	"NAME": "The Palm Dubai",
+	"ID": 40,
+	"LATITUDE": null
+}, {
+	"IS_MALL": null,
+	"LONGITUTE": null,
+	"NAME": "Al Quoz Industrial First",
+	"ID": 41,
+	"LATITUDE": null
+}, {
+	"IS_MALL": null,
+	"LONGITUTE": null,
+	"NAME": "Al Ghurair City",
+	"ID": 42,
+	"LATITUDE": null
+}, {
+	"IS_MALL": null,
+	"LONGITUTE": null,
+	"NAME": "Al Karama",
+	"ID": 43,
+	"LATITUDE": null
+}, {
+	"IS_MALL": null,
+	"LONGITUTE": null,
+	"NAME": "Jumeira First",
+	"ID": 44,
+	"LATITUDE": null
+}, {
+	"IS_MALL": null,
+	"LONGITUTE": null,
+	"NAME": "Al Safouh First",
+	"ID": 45,
+	"LATITUDE": null
+}, {
+	"IS_MALL": null,
+	"LONGITUTE": null,
+	"NAME": "Jumeirah",
+	"ID": 46,
+	"LATITUDE": null
+}, {
+	"IS_MALL": null,
+	"LONGITUTE": null,
+	"NAME": "Al Quoz Industrial Third",
+	"ID": 47,
+	"LATITUDE": null
+}, {
+	"IS_MALL": null,
+	"LONGITUTE": null,
+	"NAME": "Al Ras",
+	"ID": 48,
+	"LATITUDE": null
+}, {
+	"IS_MALL": null,
+	"LONGITUTE": null,
+	"NAME": "Port Saeed",
+	"ID": 49,
+	"LATITUDE": null
+}, {
+	"IS_MALL": "Y",
+	"LONGITUTE": "55.200587",
+	"NAME": "Mall of the Emirates",
+	"ID": 50,
+	"LATITUDE": "25.118107"
+}, {
+	"IS_MALL": null,
+	"LONGITUTE": null,
+	"NAME": "Arabian Ranches",
+	"ID": 51,
+	"LATITUDE": null
+}, {
+	"IS_MALL": null,
+	"LONGITUTE": null,
+	"NAME": "Sheikh Zayed Road",
+	"ID": 52,
+	"LATITUDE": null
+}, {
+	"IS_MALL": null,
+	"LONGITUTE": null,
+	"NAME": "Discovery Pavilion",
+	"ID": 53,
+	"LATITUDE": null
+}, {
+	"IS_MALL": "Y",
+	"LONGITUTE": "55.120275",
+	"NAME": "Ibn Battuta Mall",
+	"ID": 54,
+	"LATITUDE": "25.04483"
+}, {
+	"IS_MALL": null,
+	"LONGITUTE": null,
+	"NAME": "Al Barsha First",
+	"ID": 55,
+	"LATITUDE": null
+}, {
+	"IS_MALL": null,
+	"LONGITUTE": null,
+	"NAME": "Al Wasl",
+	"ID": 56,
+	"LATITUDE": null
+}, {
+	"IS_MALL": null,
+	"LONGITUTE": null,
+	"NAME": "Rigga Al Buteen",
+	"ID": 57,
+	"LATITUDE": null
+}, {
+	"IS_MALL": "Y",
+	"LONGITUTE": "55.305761",
+	"NAME": "Al Manal Center",
+	"ID": 58,
+	"LATITUDE": "25.271445"
+}, {
+	"IS_MALL": null,
+	"LONGITUTE": null,
+	"NAME": "Al Satwa",
+	"ID": 59,
+	"LATITUDE": null
+}, {
+	"IS_MALL": null,
+	"LONGITUTE": null,
+	"NAME": "Al Qusais First",
+	"ID": 60,
+	"LATITUDE": null
+}, {
+	"IS_MALL": null,
+	"LONGITUTE": null,
+	"NAME": "Dubai Investment Park First",
+	"ID": 61,
+	"LATITUDE": null
+}, {
+	"IS_MALL": "Y",
+	"LONGITUTE": "55.140483",
+	"NAME": "Dubai Marina Mall",
+	"ID": 62,
+	"LATITUDE": "25.07644"
+}, {
+	"IS_MALL": null,
+	"LONGITUTE": null,
+	"NAME": "Palm Strip",
+	"ID": 63,
+	"LATITUDE": null
+}, {
+	"IS_MALL": null,
+	"LONGITUTE": null,
+	"NAME": "Al Rashidiya",
+	"ID": 64,
+	"LATITUDE": null
+}, {
+	"IS_MALL": null,
+	"LONGITUTE": null,
+	"NAME": "Al Hamriya, Dubai",
+	"ID": 65,
+	"LATITUDE": null
+}, {
+	"IS_MALL": "Y",
+	"LONGITUTE": "55.196935",
+	"NAME": "City Center Me'aisem",
+	"ID": 66,
+	"LATITUDE": "25.040678"
+}, {
+	"IS_MALL": null,
+	"LONGITUTE": null,
+	"NAME": "Across Dubai",
+	"ID": 67,
+	"LATITUDE": null
+}, {
+	"IS_MALL": null,
+	"LONGITUTE": null,
+	"NAME": "Mirdif",
+	"ID": 68,
+	"LATITUDE": null
+}, {
+	"IS_MALL": null,
+	"LONGITUTE": null,
+	"NAME": "Za'abeel First",
+	"ID": 69,
+	"LATITUDE": null
+}, {
+	"IS_MALL": null,
+	"LONGITUTE": null,
+	"NAME": "Al Barsha Mall",
+	"ID": 70,
+	"LATITUDE": null
+}, {
+	"IS_MALL": null,
+	"LONGITUTE": null,
+	"NAME": "Dubai Marina",
+	"ID": 71,
+	"LATITUDE": null
+}, {
+	"IS_MALL": null,
+	"LONGITUTE": null,
+	"NAME": "Dubai Shopping Center",
+	"ID": 72,
+	"LATITUDE": null
+}, {
+	"IS_MALL": null,
+	"LONGITUTE": null,
+	"NAME": "Jumeira Third",
+	"ID": 73,
+	"LATITUDE": null
+}, {
+	"IS_MALL": "Y",
+	"LONGITUTE": "55.400598",
+	"NAME": "Dubai Outlet Mall",
+	"ID": 74,
+	"LATITUDE": "25.072422"
+}, {
+	"IS_MALL": null,
+	"LONGITUTE": null,
+	"NAME": "Umm Hurair Second",
+	"ID": 75,
+	"LATITUDE": null
+}, {
+	"IS_MALL": "Y",
+	"LONGITUTE": "55.352587",
+	"NAME": "Dubai Festival City Mall",
+	"ID": 76,
+	"LATITUDE": "25.2218"
+}, {
+	"IS_MALL": null,
+	"LONGITUTE": null,
+	"NAME": "Deira",
+	"ID": 77,
+	"LATITUDE": null
+}, {
+	"IS_MALL": null,
+	"LONGITUTE": null,
+	"NAME": "Umm Al Sheif",
+	"ID": 78,
+	"LATITUDE": null
+}, {
+	"IS_MALL": "Y",
+	"LONGITUTE": "55.407773",
+	"NAME": "City Center Mirdif",
+	"ID": 79,
+	"LATITUDE": "25.216319"
+}, {
+	"IS_MALL": null,
+	"LONGITUTE": null,
+	"NAME": "Jumeirah Park Pavilion",
+	"ID": 80,
+	"LATITUDE": null
+}]
