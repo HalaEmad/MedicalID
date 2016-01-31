@@ -2,7 +2,6 @@
 	<!-- personalize form -->
 	<form class="personalize-form">
 		<div name="userprofile_form" ng-form="userprofile_form">
-
 			<div class="form-row">
 				<label for="name">{{"USERPROFILE_NAME" |translate}}</label> <input
 					id="name" type="text" ng-model="name" placeholder="Full Name"
@@ -37,11 +36,7 @@
 						number is too long.</span>
 				</span>
 			</div>
-			<div class="form-row">
-				<span>{{"USERPROFILE_NATIONALID" |translate}}</span> 
-				<span ng-model="nationalID"></span>
-
-			</div>
+		
 			<div class="form-row">
 				<label for="email">{{"USERPROFILE_EMAIL" |translate}}</label> <input
 					id="email" type="email" ng-model="email"
@@ -91,11 +86,13 @@
 				</span>
 			</div>
 
-
+			<div class="form-row">
+				<span>{{"USERPROFILE_NATIONALID" |translate}}</span> 
+				<span ng-model="nationalID"></span>
+			</div>
 			<div class="form-row">
 				<span>{{"USERPROFILE_DOB" |translate}}</span>
 				<span ng-model="dateOfBirth"> </span>
-				
 			</div>
 			<div class="form-row">
 				<label>{{"USERPROFILE_MARITALSTATUS"
@@ -104,34 +101,33 @@
 			<div class="form-row"><span style="font-weight: bolder;">{{"USERPROFILE_EMERGENCY"
 					|translate}}</span>
 			</div>
-			<div class="form-row"><span>{{"USERPROFILE_EMERGENCY_CONTACTPERSONNAME"
+			<div class="form-row"><span class="userProfileFieldsAlignment">{{"USERPROFILE_EMERGENCY_CONTACTPERSONNAME"
 					|translate}}</span>
 			</div>
-			<div class="form-row"><span>{{"USERPROFILE_EMERGENCY_CONTACTPERSONMOBILENUMBER"
+			<div class="form-row"><span class="userProfileFieldsAlignment">{{"USERPROFILE_EMERGENCY_CONTACTPERSONMOBILENUMBER"
 					|translate}}</span>
 			</div>
-			<div class="form-row"><span>{{"USERPROFILE_EMERGENCY_CONTACTPERSONRELATION"
+			<div class="form-row"><span class="userProfileFieldsAlignment">{{"USERPROFILE_EMERGENCY_CONTACTPERSONRELATION"
 					|translate}}</span>
 			</div>
-			<div class="form-row"><span>{{"USERPROFILE_EMERGENCY_CONTACTPERSONTREATINGDOCTOR"
+			<div class="form-row"><span class="userProfileFieldsAlignment">{{"USERPROFILE_EMERGENCY_CONTACTPERSONTREATINGDOCTOR"
 					|translate}}</span>
 			</div>
-			
 			
 			<div class="form-row"><span style="font-weight: bolder;">{{"USERPROFILE_HABITS"
 					|translate}}</span>
 			</div>
 			
-			<div class="form-row"><span>{{"USERPROFILE_HABITS_SMOKE"
+			<div class="form-row"><span class="userProfileFieldsAlignment">{{"USERPROFILE_HABITS_SMOKE"
 					|translate}}</span>
 			</div>
-			<div class="form-row"><span>{{"USERPROFILE_HABITS_DRINK"
+			<div class="form-row"><span class="userProfileFieldsAlignment">{{"USERPROFILE_HABITS_DRINK"
 					|translate}}</span>
 			</div>
-			<div class="form-row"><span>{{"USERPROFILE_HABITS_BLOODGROUPTYPE"
+			<div class="form-row"><span class="userProfileFieldsAlignment">{{"USERPROFILE_HABITS_BLOODGROUPTYPE"
 					|translate}}</span>
 			</div>
-			<div class="form-row"><span>{{"USERPROFILE_HABITS_NOTES"
+			<div class="form-row"><span class="userProfileFieldsAlignment">{{"USERPROFILE_HABITS_NOTES"
 					|translate}}</span>
 			</div>
 			<div class="form-row buttons"

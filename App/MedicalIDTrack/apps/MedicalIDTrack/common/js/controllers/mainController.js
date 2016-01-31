@@ -69,11 +69,11 @@ dsf.controller('mainController', function($scope, $rootScope, $state, $log, $tim
 		$state.go('adibtopratedoffers');
 	};
 	/*Social Twitter Page Navigation fn*/	
-	$scope.dsftwitterSocial=function()
-	{
-		$('.sideMenuHide').toggleClass('nav-active');
-		$state.go('socialTwitter');
-	};
+//	$scope.dsftwitterSocial=function()
+//	{
+//		$('.sideMenuHide').toggleClass('nav-active');
+//		$state.go('socialTwitter');
+//	};
 	$scope.dsftTermsAndConditions=function()
 	{
 		$('.sideMenuHide').toggleClass('nav-active');
