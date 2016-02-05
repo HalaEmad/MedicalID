@@ -1,23 +1,79 @@
-<div id="content">
-	<!-- personalize form -->
-	<form class="personalize-form">
-		<div name="userprofile_form" ng-form="userprofile_form">
-			
-			<div class="form-row">
-				<span>{{"MEDICATIONS_NAME" |translate}}</span> 
-				<span ng-model="foodAndDietDate"></span>
-			</div>
-			
-			<div class="form-row">
-				<span>{{"MEDICATIONS_DOSE" |translate}}</span> 
-				<span ng-model="foodAndDietType"></span>
-			</div>
-			
-			<div class="form-row">
-				<span>{{"MEDICATIONS_FREQUENCY" |translate}}</span> 
-				<span ng-model="foodAndDietDose"></span>
-			</div>
-			
+ <div id="content">
+	<div class="content-inner">
+		<ul class="items-list">
+			<li class="open-close" >
+				<div class="heading">
+					<div class="area">
+						<a class="titles-area opener"> <span class="icon">
+								<i class="catIconsConfigs testsIconImg"></i>
+						</span>
+						<h2>{{"MEDICATIONS_NAME" |translate}}<span>concor</span></h2>
+							<div class="description">
+								<span >{{"MEDICATIONS_DOSE" |translate}}</span><span>5 mg</span>
+							</div>	
+
+						</a> <a class="fav-holder"> <i class="fav validate-fav inActiveMarkFavorite" mark-favorite ng-click="markFavoriteFn(favoriteItem.ID)"><span >favourite</span></i>
+
+						</a>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="holder">
+						<div class="item-info">
+							<div class="txt">
+								<span>{{"MEDICATIONS_NAME" |translate}}</span><span>concor</span>
+							</div>
+						</div>
+						<div class="item-info">
+							<div class="txt">
+								<span>{{"MEDICATIONS_DOSE" |translate}}</span> <span>5 mg</span>
+							</div>
+						</div>
+						<div class="item-info">
+							<div class="txt">
+								<span>{{"MEDICATIONS_FREQUENCY" |translate}}</span><span>once</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li class="open-close" >
+				<div class="heading">
+					<div class="area">
+						<a class="titles-area opener"> <span class="icon">
+								<i class="catIconsConfigs testsIconImg"></i>
+						</span>
+							<h2>{{"MEDICATIONS_NAME" |translate}}<span>Plavix</span></h2>
+							<div class="description">
+								<span >{{"MEDICATIONS_DOSE" |translate}}</span><span>75 mg</span>
+							</div>	
+
+						</a> <a class="fav-holder"> <i class="fav validate-fav inActiveMarkFavorite" mark-favorite ng-click="markFavoriteFn(favoriteItem.ID)"><span >favourite</span></i>
+
+						</a>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="holder">
+						<div class="item-info">
+							<div class="txt">
+								<span>{{"MEDICATIONS_NAME" |translate}}</span><span>Plavix</span>
+							</div>
+						</div>
+						<div class="item-info">
+							<div class="txt">
+								<span>{{"MEDICATIONS_DOSE" |translate}}</span> <span>75 mg</span>
+							</div>
+						</div>
+						<div class="item-info">
+							<div class="txt">
+								<span>{{"MEDICATIONS_FREQUENCY" |translate}}</span><span>once</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</li>
+		</ul>
 		</div>
-	</form>
 </div>
+ 

@@ -100,12 +100,17 @@
     "MEDICATIONS_DOSE":"Dose : ",
     "MEDICATIONS_FREQUENCY":"Frequency : ", 
     
+    "MAJORILLNESS_TITLENAME":"Illness Name  ",
     "MAJORILLNESS_NAME":"Name : ",
     "MAJORILLNESS_NOTES":"Notes : ",
     
     "ALLERGIES_DRUG":"Drug : ",
     "ALLERGIES_FOOD":"Food : ",
 	"ALLERGIES_OTHERS":"Others : ",
+	
+	"MEDICALEVENTS_DATE":"Drug : ",
+    "MEDICALEVENTS_DESCRIPTION":"Description : ",
+	"MEDICALEVENTS_NOTE":"Note : ",
 	
     "OK": "Ok",
     "CANCEL": "Cancel",

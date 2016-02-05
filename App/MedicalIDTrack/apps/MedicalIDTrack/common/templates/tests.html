@@ -1,23 +1,42 @@
 <div id="content">
-	<!-- personalize form -->
-	<form class="personalize-form">
-		<div name="userprofile_form" ng-form="userprofile_form">
-			
-			<div class="form-row">
-				<span>{{"INVESTIGATIONS_LABORATORY" |translate}}</span> 
-				<span ng-model="foodAndDietDate"></span>
-			</div>
-			
-			<div class="form-row">
-				<span>{{"INVESTIGATIONS_RADIOLOGICAL" |translate}}</span> 
-				<span ng-model="foodAndDietType"></span>
-			</div>
-			
-			<div class="form-row">
-				<span>{{"INVESTIGATIONS_ATTACHMENT" |translate}}</span> 
-				<span ng-model="foodAndDietDose"></span>
-			</div>
-			
+	<div class="content-inner">
+		<ul class="items-list">
+			<li class="open-close" >
+				<div class="heading">
+					<div class="area">
+						<a class="titles-area opener"> <span class="icon">
+								<i class="catIconsConfigs testsIconImg"></i>
+						</span>
+							<h2>{{"INVESTIGATIONS_LABORATORY" |translate}}<span>Cr</span></h2>
+							<div class="description">
+								<span >{{"INVESTIGATIONS_RADIOLOGICAL" |translate}}<span>Echo</span> </span>
+							</div>	
+
+						</a> <a class="fav-holder"> <i class="fav validate-fav inActiveMarkFavorite" mark-favorite ng-click="markFavoriteFn(favoriteItem.ID)"><span >favourite</span></i>
+
+						</a>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="holder">
+						<div class="item-info">
+							<div class="txt">
+								<p>{{"INVESTIGATIONS_LABORATORY" |translate}}<span>Cr</span></p>
+							</div>
+						</div>
+						<div class="item-info">
+							<div class="txt">
+								<p>{{"INVESTIGATIONS_RADIOLOGICAL" |translate}}<span>Echo</span></p>
+							</div>
+						</div>
+						<div class="item-info">
+							<div class="txt">
+								<p>{{"INVESTIGATIONS_ATTACHMENT" |translate}}<span>N/A</span></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</li>
+		</ul>
 		</div>
-	</form>
 </div>

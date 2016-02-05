@@ -51,7 +51,7 @@
 			</div>
 			<div class="form-row">
 				<label for="name">{{"USERPROFILE_OCCUPATION" |translate}}</label> <input
-					id="name" type="text" ng-model="name" placeholder="Full Name"
+					id="name" type="text" ng-model="occupation" placeholder="Full Name"
 					ng-required="true"  name="name">
 				<span style="color: red"
 					ng-show="userprofile_form.name.$dirty && userprofile_form.name.$invalid">
@@ -64,7 +64,7 @@
 
 			<div class="form-row">
 				<label for="name">{{"USERPROFILE_ADDRESS" |translate}}</label> <input
-					id="name" type="text" ng-model="name" placeholder="Full Name"
+					id="name" type="text" ng-model="address" placeholder="Full Name"
 					ng-required="true" name="name">
 				<span style="color: red"
 					ng-show="userprofile_form.name.$dirty && userprofile_form.name.$invalid">
@@ -88,30 +88,34 @@
 
 			<div class="form-row">
 				<span>{{"USERPROFILE_NATIONALID" |translate}}</span> 
-				<span ng-model="nationalID"></span>
+				<span ng-model="nationalID">26009050104532</span>
 			</div>
 			<div class="form-row">
 				<span>{{"USERPROFILE_DOB" |translate}}</span>
-				<span ng-model="dateOfBirth"> </span>
+				<span ng-model="dateOfBirth">05-09-1960</span>
 			</div>
 			<div class="form-row">
 				<label>{{"USERPROFILE_MARITALSTATUS"
-					|translate}}</label> <span ng-model="maritalstatus"></span>
+					|translate}}</label> <span ng-model="maritalstatus">Single</span>
 			</div>
 			<div class="form-row"><span style="font-weight: bolder;">{{"USERPROFILE_EMERGENCY"
 					|translate}}</span>
 			</div>
 			<div class="form-row"><span class="userProfileFieldsAlignment">{{"USERPROFILE_EMERGENCY_CONTACTPERSONNAME"
 					|translate}}</span>
+					<span>Sherine Emad</span>
 			</div>
 			<div class="form-row"><span class="userProfileFieldsAlignment">{{"USERPROFILE_EMERGENCY_CONTACTPERSONMOBILENUMBER"
 					|translate}}</span>
+					<span>+2010023332222</span>
 			</div>
 			<div class="form-row"><span class="userProfileFieldsAlignment">{{"USERPROFILE_EMERGENCY_CONTACTPERSONRELATION"
 					|translate}}</span>
+					<span>Sister</span>
 			</div>
 			<div class="form-row"><span class="userProfileFieldsAlignment">{{"USERPROFILE_EMERGENCY_CONTACTPERSONTREATINGDOCTOR"
 					|translate}}</span>
+					<span>Magdi Mourad</span>
 			</div>
 			
 			<div class="form-row"><span style="font-weight: bolder;">{{"USERPROFILE_HABITS"
@@ -120,15 +124,19 @@
 			
 			<div class="form-row"><span class="userProfileFieldsAlignment">{{"USERPROFILE_HABITS_SMOKE"
 					|translate}}</span>
+					<span>N/A</span>
 			</div>
 			<div class="form-row"><span class="userProfileFieldsAlignment">{{"USERPROFILE_HABITS_DRINK"
 					|translate}}</span>
+					<span>N/A</span>
 			</div>
 			<div class="form-row"><span class="userProfileFieldsAlignment">{{"USERPROFILE_HABITS_BLOODGROUPTYPE"
 					|translate}}</span>
+					<span>B</span>
 			</div>
 			<div class="form-row"><span class="userProfileFieldsAlignment">{{"USERPROFILE_HABITS_NOTES"
 					|translate}}</span>
+					<span>N/A</span>
 			</div>
 			<div class="form-row buttons"
 				ng-show="userprofile_form.name.$valid && userprofile_form.mobile.$valid  && userprofile_form.nationality.$valid  && userprofile_form.countryOfResidence.$valid &&($scope.DateOfBirth!='')&& userprofile_form.email.$valid&&globalNoOfCategories<=3">

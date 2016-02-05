@@ -9,6 +9,7 @@ dsf
 					$scope.$parent.showFooter = false;
 					$scope.$parent.PageHeaderParam = "Current Medications";
 					/*$scope.patternToUSe="[\u0621-\u064A\u0660-\u0669 ]+$|([a-zA-Z]+\\s)*[a-zA-Z]+$";*/
-					
+					initOpenClose();
+
 					/* the below is responsible for */
 				});

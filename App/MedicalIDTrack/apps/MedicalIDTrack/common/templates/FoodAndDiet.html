@@ -1,25 +1,43 @@
 <div id="content">
-	<!-- personalize form -->
-	<form class="personalize-form content-inner">
-		<div name="userprofile_form" ng-form="userprofile_form">
-			<div class="form-row">
-				
-			</div>
-			<div class="form-row">
-				<span>{{"FOODANDDIET_DATE" |translate}}</span> 
-				<span ng-model="foodAndDietDate"></span>
-			</div>
-			
-			<div class="form-row">
-				<span>{{"FOODANDDIET_TYPE" |translate}}</span> 
-				<span ng-model="foodAndDietType"></span>
-			</div>
-			
-			<div class="form-row">
-				<span>{{"FOODANDDIET_DOSE" |translate}}</span> 
-				<span ng-model="foodAndDietDose"></span>
-			</div>
-			
+	<div class="content-inner">
+		<ul class="items-list">
+			<li class="open-close" >
+				<div class="heading">
+					<div class="area">
+						<a class="titles-area opener"> <span class="icon">
+								<i class="catIconsConfigs FoodDietIconImg"></i>
+						</span>
+						<h2>{{"FOODANDDIET_DATE" |translate}}<span>2010</span></h2>
+							<div class="description">
+								<span >{{"FOODANDDIET_TYPE" |translate}}</span><span>centrum</span>
+							</div>	
+
+						</a> <a class="fav-holder"> <i class="fav validate-fav inActiveMarkFavorite" mark-favorite ng-click="markFavoriteFn(favoriteItem.ID)"><span >favourite</span></i>
+
+						</a>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="holder">
+						<div class="item-info">
+							<div class="txt">
+								<span>{{"ALLERGIES_DRUG" |translate}}</span><span>2010</span>
+							</div>
+						</div>
+						<div class="item-info">
+							<div class="txt">
+								<span>{{"ALLERGIES_FOOD" |translate}}</span> <span>centrum</span>
+							</div>
+						</div>
+						<div class="item-info">
+							<div class="txt">
+								<span>{{"FOODANDDIET_DOSE" |translate}}</span><span>Once</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</li>
+			</ul>
 		</div>
-	</form>
 </div>
+ 

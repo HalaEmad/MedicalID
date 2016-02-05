@@ -13,7 +13,7 @@ dsf.controller('userProfileController',
 					$scope.counrtyListFromJson = '';
 					$scope.showEmaritesList = false;
 					$scope.$parent.showFooter = false;
-					$scope.$parent.PageHeaderParam = "Personalize Your DSF";
+					$scope.$parent.PageHeaderParam = "Personalize Your Account";
 					$scope.minDateToAllow="1900-01-01";
 					$scope.globalNoOfCategories=0;
 					var categoriesIDList=[];

@@ -61,7 +61,7 @@
 					<span ng-show="contactus_form.message.$error.required">Message is required.</span>
 				</span>
 			</div>
-			<div class="form-row buttons" ng-if="contactus_form.lname.$valid&&contactus_form.message.$valid &&contactus_form.email.$valid&&contactus_form.mobile.$valid">
+			<div class="form-row buttons" >
 				<input type="submit" value="Send" ng-click="submitFeedback()">
 			</div>
 			<div class="form-row buttons" ng-if="contactus_form.lname.$invalid ||contactus_form.message.$invalid || contactus_form.email.$invalid ||contactus_form.mobile.$invalid">

@@ -1,23 +1,93 @@
-<div id="content">
-	<!-- personalize form -->
-	<form class="personalize-form">
-		<div name="userprofile_form" ng-form="userprofile_form">
+ <div id="content">
+	<div class="content-inner">
+		<ul class="items-list">
+			<li class="open-close" >
+				<div class="heading">
+					<div class="area">
+						<a class="titles-area opener"> <span class="icon">
+								<i class="catIconsConfigs surgicalProcedureIconImg"></i>
+						</span>
+						<h2>{{"SURGICALPROCEDURE_DESCRIPTION" |translate}}<span>appendicectomy</span></h2>
+							 <div class="description">
+								<span >{{"SURGICALPROCEDURE_DATE" |translate}}<span>2001</span></span>
+								
+							</div>	 
+
+						</a> <a class="fav-holder"> <i class="fav validate-fav inActiveMarkFavorite" mark-favorite ng-click="markFavoriteFn(favoriteItem.ID)"><span >favourite</span></i>
+
+						</a>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="holder">
+						<div class="item-info">
+							<div class="txt">
+								<span>{{"SURGICALPROCEDURE_DESCRIPTION" |translate}}</span><span>appendicectomy</span>
+							</div>
+						</div>
+						<div class="item-info">
+							<div class="txt">
+								<span>{{"SURGICALPROCEDURE_DATE" |translate}}</span> <span>2001</span>
+							</div>
+						</div>
+						<div class="item-info">
+							<div class="txt">
+								<span>{{"SURGICALPROCEDURE_PHYSICAN" |translate}}</span><span>DR. mostfa</span>
+							</div>
+						</div>
+						<div class="item-info">
+							<div class="txt">
+								<span>{{"SURGICALPROCEDURE_NOTES" |translate}}</span><span>smooth</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</li>
 			
-			<div class="form-row">
-				<span>{{"ANAESTHESIA_DATE" |translate}}</span> 
-				<span ng-model="foodAndDietDate"></span>
-			</div>
-			
-			<div class="form-row">
-				<span>{{"ANAESTHESIA_DESCRIPTION" |translate}}</span> 
-				<span ng-model="foodAndDietType"></span>
-			</div>
-			
-			<div class="form-row">
-				<span>{{"ANAESTHESIA_NOTES" |translate}}</span> 
-				<span ng-model="foodAndDietDose"></span>
-			</div>
-			
+			<li class="open-close" >
+				<div class="heading">
+					<div class="area">
+						<a class="titles-area opener"> <span class="icon">
+								<i class="catIconsConfigs surgicalProcedureIconImg"></i>
+						</span>
+						<h2>{{"SURGICALPROCEDURE_DESCRIPTION" |translate}}<span>Tonsillectomy</span></h2>
+							 <div class="description">
+								<span >{{"SURGICALPROCEDURE_DATE" |translate}}<span>1979</span></span>
+								
+							</div>	 
+
+						</a> <a class="fav-holder"> <i class="fav validate-fav inActiveMarkFavorite" mark-favorite ng-click="markFavoriteFn(favoriteItem.ID)"><span >favourite</span></i>
+
+						</a>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="holder">
+						<div class="item-info">
+							<div class="txt">
+								<span>{{"SURGICALPROCEDURE_DESCRIPTION" |translate}}</span><span>Tonsillectomy</span>
+							</div>
+						</div>
+						<div class="item-info">
+							<div class="txt">
+								<span>{{"SURGICALPROCEDURE_DATE" |translate}}</span> <span>1979	</span>
+							</div>
+						</div>
+						<div class="item-info">
+							<div class="txt">
+								<span>{{"SURGICALPROCEDURE_PHYSICAN" |translate}}</span><span>DR amr</span>
+							</div>
+						</div>
+						<div class="item-info">
+							<div class="txt">
+								<span>{{"SURGICALPROCEDURE_NOTES" |translate}}</span><span>N/A</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</li>
+			</ul>
 		</div>
-	</form>
 </div>
+ 
+
