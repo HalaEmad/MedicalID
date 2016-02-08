@@ -2474,6 +2474,16 @@ body {
 {
 	background-image: url(../images/sidemenu/trauma.png)!important;
 }
+.postpartumIconImg{
+	background-image: url(../images/sidemenu/postpartum.png)!important;
+}
+.vaccineIconImg{
+	background-image: url(../images/sidemenu/vaccinations.png)!important;
+}
+.childrenFeedingIconImg{
+	background-image: url(../images/sidemenu/Mother-spoon-feeding-baby-girl.png)!important;
+}
+
 .contactusBkgd {
     background-image: url(../images/backgrounds/contact-us.jpg)!important;
     background-size:100% 100%;	

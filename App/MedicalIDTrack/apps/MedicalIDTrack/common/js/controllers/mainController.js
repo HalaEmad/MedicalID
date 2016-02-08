@@ -118,6 +118,12 @@ dsf.controller('mainController', function($scope, $rootScope, $state, $log, $tim
 		$('.sideMenuHide').toggleClass('nav-active');
 		$state.go('foodndiet');
 	};
+	$scope.childhood=function()
+	{
+		$('.sideMenuHide').toggleClass('nav-active');
+		$state.go('childhood');
+
+	};
 	$scope.dsftTermsAndConditions=function()
 	{
 		$('.sideMenuHide').toggleClass('nav-active');

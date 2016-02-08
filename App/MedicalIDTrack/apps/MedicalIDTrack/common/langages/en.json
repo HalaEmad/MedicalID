@@ -108,10 +108,21 @@
     "ALLERGIES_FOOD":"Food : ",
 	"ALLERGIES_OTHERS":"Others : ",
 	
-	"MEDICALEVENTS_DATE":"Drug : ",
+	"MEDICALEVENTS_DATE":"Date : ",
     "MEDICALEVENTS_DESCRIPTION":"Description : ",
 	"MEDICALEVENTS_NOTE":"Note : ",
 	
+	"CHILDHOOD_POSTPARTUM":"Postpartum  ",
+	"CHILDHOOD_POSTPARTUM_NOTE":"Notes : ",
+	
+	"CHILDHOOD_VACCINATION":"Vaccination  ",
+	"CHILDHOOD_VACCINATION_DATE":"Date : ",
+	"CHILDHOOD_VACCINATION_NAME":"Name : ",
+	"CHILDHOOD_VACCINATION_BY":"By : ",	
+	
+	"CHILDHOOD_FEEDING":"Feeding For Children ",	
+	"CHILDHOOD_FEEDING_NOTES":"Notes : ",
+		
     "OK": "Ok",
     "CANCEL": "Cancel",
     "LATER": "Later",

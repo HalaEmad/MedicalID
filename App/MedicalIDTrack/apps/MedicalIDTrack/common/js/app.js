@@ -184,7 +184,15 @@ dsf.config(function ($translateProvider, $urlRouterProvider, $sceDelegateProvide
                 }
             }
         }) 
-        
+         .state('childhood', {
+            url: '/childhood',
+            views: {
+                'viewContent': {
+                    templateUrl: "templates/childhood.html",
+                    controller: "childhoodController"
+                }
+            }
+        }) 
     ;
 
    if(localStorage.getItem('dsf-userID')=="undefined" || localStorage.getItem('dsf-userID')==null)
