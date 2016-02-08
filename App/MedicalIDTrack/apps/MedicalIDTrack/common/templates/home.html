@@ -2,8 +2,23 @@
 <div id="content">
 	<div class="content-inner">
 		<!-- offers gallery -->
-		
-		
-		<div align="center" style="padding-top:10%;">Content to be filled later on</div>
+		<div class="offer-gallery">
+			<div class="mask home-carousel">
+				<div class="slideset">
+					<div class="slide" ng-repeat="offer in heroOffers track by offer.ID ">
+						<span class="off">{{offer.TITLE}}</span>
+						<a  ng-click="navigateToOfferDetails(offer.ID)">
+						</span> <img src="{{offer.OfferImage}}" srcset="{{offer.OfferImage2x}} 2x"
+							alt="{{offer.TITLE}}">
+						</a>
+					</div> 
+					
+				</div>
+			</div>
+			<ul class="pagination">
+				 <li ng-repeat="n in [] |heroPagination:heroOffersCounter" value="{{$index+1}}"><a href="#">{{$index + 1}}</a></li>
+			</ul> 
+		</div>
+
 	</div>
 </div>

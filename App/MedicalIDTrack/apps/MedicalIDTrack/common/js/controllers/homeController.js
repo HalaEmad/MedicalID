@@ -12,7 +12,7 @@ dsf.controller('homeController', function($scope, $rootScope, $state,$http, $log
 		if (status == 200 && data) {
 			$timeout(function(){
 				$scope.heroOffers=$.makeArray(data);
-				$scope.heroOffersCounter=$.makeArray(data).length;
+				$scope.heroOffersCounter=4;
 				console.log('counter'+$scope.heroOffersCounter);
 				$scope.$apply();
 				initCarousel();
@@ -21,11 +21,11 @@ dsf.controller('homeController', function($scope, $rootScope, $state,$http, $log
 		}
 		});
 	/*Adding this block of code for the details page so that we can make sure there is data to be displayed*/
-	$scope.offerListUpdated =($.makeArray(JSON.parse(localStorageService.getAllOfferList())));
-	if($scope.offerListUpdated.length==0)
-			{
-				$scope.fillOffersList();
-			}
+//	$scope.offerListUpdated =($.makeArray(JSON.parse(localStorageService.getAllOfferList())));
+//	if($scope.offerListUpdated.length==0)
+//			{
+//				$scope.fillOffersList();
+//			}
 //	databaseService.fetchHeroOffers(function(flag) {
 //		if(flag=="SUCCESS") {
 //				$scope.heroOffers=JSON.parse(localStorageService.getHeroOfferList());
@@ -56,75 +56,28 @@ dsf.controller('homeController', function($scope, $rootScope, $state,$http, $log
 //			
 //		}
 //	});
-	
-	$http.get('data/categories.json').success(function(data, status) {
-		var result = {};
-		if (status == 200 && data) {
-			$timeout(function(){
-				//$scope.catOrder=$scope.sortCatOrder();
-				$scope.categoriesList=$scope.sortCatOrder($.makeArray(data.Categories));
-				$scope.$apply();
-			},50);
-		}
-		});
-	$scope.sortCatOrder=function(categoriesList)
-	{
-		var catorder=[];
-		var userProfSelectedCat=[];
-		if(localStorageService.getUserprofileCatIDs()==undefined||localStorageService.getUserprofileCatIDs()=="")
-			{
-				catorder=categoriesList;
-			}
-		else
-			{
-				//list of IDs of categories selected by the client 
-			userProfSelectedCat=$.makeArray(JSON.parse(localStorageService.getUserprofileCatIDs()));
-				var count=userProfSelectedCat.length;
-
-				for(var i=0;i<categoriesList.length;i++){
-						var catIDexist=false;
-						for(var j=0;j<userProfSelectedCat.length;j++)
-							{
-								if(parseInt($.makeArray(JSON.parse(localStorageService.getUserprofileCatIDs()))[j].substring(3))==categoriesList[i].cat_id)
-									{
-										catIDexist=true;
-										catorder[j]=categoriesList[i];
-									}
-							}
-						if(catIDexist==false)
-						{
-							
-							catorder[count]=categoriesList[i];
-							count++;
-						}
-							
-					}
-			}
-		return catorder;
-	}
-	$scope.adibOffersPageNav=function()
+	$scope.navigateToOfferDetails=function(ID)
 	{
 		$scope.$parent.hideDrawer = false;
-		$state.go('adiboffers');
-	};
-
-	$scope.navigateToOfferDetails=function(index)
-	{		
-		localStorageService.setOfferInfo(index);
-		$state.go('offerDetails');
-	};
-
-	$scope.goTooffer=function(index)
-	{
-		$state.go('showoffers');
-	};
-	$scope.eventsList=function()
-	{
-		$state.go('events');
-	};
-	
-	$scope.goToCategoryPage=function(outletID,outletobj,catID,CatObj,headertext)
-	{
-		$state.go('filteredOfferList',{outletID:outletID,outletObj:outletobj,CategoryID:catID,CategoryObj:CatObj,headerTitle:headertext});
+		switch (ID) {
+	    case 1:
+	    	$state.go('majorIllness');
+	    	break;
+	    case 2:
+			$state.go('medicalEvents');
+	    	break;
+	    case 3:
+			$state.go('medications');
+	    	break;
+	    case 4:
+	    	$state.go('surgicalProcedures');
+	    	break;
 	}
+
+			
+	};
+
+
+	
+	
 }); 
